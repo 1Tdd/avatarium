@@ -61,6 +61,12 @@ export default function Selection() {
   const avatars = packs.reduce((n, p) => n + p.count, 0);
   const bytes = packs.reduce((n, p) => n + p.bytes + p.manifestBytes, 0);
   // pCloud builds each ZIP from the IDs in the URL, so very large selections are split into parts.
+  const manifestParts = (list: {url: string; count: number}[]) =>
+    list.map((part, i) => (
+      <a className="button ghost block" key={i} href={part.url}>
+        {list.length > 1 ? `Manifests only, part ${i + 1} of ${list.length} (ZIP)` : 'Manifests only (ZIP)'}
+      </a>
+    ));
   const parts = Array.from({length: Math.ceil(packs.length / SELECTION_ZIP_LIMIT)}, (_, i) => packs.slice(i * SELECTION_ZIP_LIMIT, (i + 1) * SELECTION_ZIP_LIMIT));
   const listed = expanded ? packs : packs.slice(0, LIST_PREVIEW);
   const addEverything = () => addMany(catalog.packs.map(p => p.id));
@@ -158,9 +164,9 @@ export default function Selection() {
             </div>
           )}
           {all ? (
-            config.downloadsEnabled ? <a className="button ghost block" href={manifestsZip(config, catalog)}>Manifests only (ZIP)</a> : null
+            config.downloadsEnabled ? manifestParts(manifestsZip(config, catalog)) : null
           ) : packs.length > 1 ? (
-            config.downloadsEnabled ? <a className="button ghost block" href={manifestsZipFor(config, packs)}>Manifests only (ZIP)</a> : null
+            config.downloadsEnabled ? manifestParts(manifestsZipFor(config, packs)) : null
           ) : (
             <button className="button ghost block" disabled={busy || !config.downloadsEnabled} onClick={manifest}>
               {busy ? 'Downloading…' : 'Manifest only'}

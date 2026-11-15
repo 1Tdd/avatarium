@@ -62,13 +62,24 @@ export function fullZip(c: Config, cat: Catalog) {
   return zipUrl(c, {folderids: cat.rootFolderId, filename: 'AVATARIUM.zip'});
 }
 
-/** A small ZIP holding only the manifests of the given packs. */
-export function manifestsZipFor(c: Config, packs: Pack[], filename = 'AVATARIUM_SELECTED_MANIFESTS.zip') {
-  return zipUrl(c, {fileids: packs.map(p => p.manifestId).join(','), filename});
+/**
+ * Small ZIPs holding only the manifests of the given packs. The same URL length limit applies,
+ * so one ZIP lists at most 240 manifests; longer lists come as numbered parts.
+ */
+export const MANIFESTS_ZIP_LIMIT = 240;
+export function manifestsZipFor(c: Config, packs: Pack[], name = 'AVATARIUM_SELECTED_MANIFESTS') {
+  const count = Math.ceil(packs.length / MANIFESTS_ZIP_LIMIT);
+  return Array.from({length: count}, (_, i) => {
+    const part = packs.slice(i * MANIFESTS_ZIP_LIMIT, (i + 1) * MANIFESTS_ZIP_LIMIT);
+    return {
+      count: part.length,
+      url: zipUrl(c, {fileids: part.map(p => p.manifestId).join(','), filename: count > 1 ? `${name}_${i + 1}.zip` : `${name}.zip`}),
+    };
+  });
 }
 
 export function manifestsZip(c: Config, cat: Catalog) {
-  return manifestsZipFor(c, cat.packs, 'AVATARIUM_PACK_MANIFESTS.zip');
+  return manifestsZipFor(c, cat.packs, 'AVATARIUM_PACK_MANIFESTS');
 }
 
 export function formatBytes(bytes: number) {

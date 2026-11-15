@@ -313,6 +313,7 @@ dialog::backdrop { background: #050606cc; backdrop-filter: blur(8px); }
 .download-list { margin-top: 22px; border-top: 1px solid var(--line); }
 .download-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding: 20px 0; border-bottom: 1px solid var(--line); }
 .download-row p { color: var(--muted); font-size: 14.5px; margin-top: 4px; }
+.row-actions { display: flex; gap: 10px; flex-wrap: wrap; }
 .download-control { min-width: 0; }
 .download-control .error-text { margin-top: 8px; }
 

@@ -71,7 +71,7 @@ export default function Downloads() {
               <h3>Separate pack manifests</h3>
               <p>{catalog.packCount} JSON files · one pack each · {audit?.manifests ? formatBytes(audit.manifests.bytes) : 'small ZIP'}</p>
             </div>
-            {config.downloadsEnabled ? <a className="button ghost" href={manifestsZip(config, catalog)}>Download <Icon name="download" size={16} /></a> : <button className="button ghost" disabled>Unavailable</button>}
+            {config.downloadsEnabled ? <div className="row-actions">{manifestsZip(config, catalog).map((part, i, all) => <a className="button ghost" key={i} href={part.url}>{all.length > 1 ? `Part ${i + 1} (${part.count})` : 'Download'} <Icon name="download" size={16} /></a>)}</div> : <button className="button ghost" disabled>Unavailable</button>}
           </div>
           <div className="download-row">
             <div>
