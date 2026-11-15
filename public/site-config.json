@@ -1,0 +1,30 @@
+{
+  "shareCode": "kZKKkV7ZVz5DoM2iQT0H8FcDgRrkUFXp8boV",
+  "shareUrl": "https://e.pcloud.link/publink/show?code=kZKKkV7ZVz5DoM2iQT0H8FcDgRrkUFXp8boV",
+  "apiOrigin": "https://eapi.pcloud.com",
+  "downloadsEnabled": true,
+  "previewsEnabled": true,
+  "previewLimitBytes": 16777216,
+  "siteUrl": "https://avatars.italianodoc.eu",
+  "contactEmail": "",
+  "contactUrl": "https://github.com/1Tdd/avatarium/issues/new",
+  "downloadAudit": {
+    "manifests": {
+      "bytes": 699124,
+      "entries": 264,
+      "crc": "ESTIMATE",
+      "filename": "AVATARIUM_PACK_MANIFESTS.zip",
+      "source": "pCloud getpubzip"
+    },
+    "library": {
+      "bytes": 2544549155,
+      "entries": 6109,
+      "crc": "PREBUILT",
+      "filename": "AVATARIUM.zip",
+      "source": "pCloud public link to a ready-made archive",
+      "checked": "2026-11-15",
+      "archive": "XZekzV7ZrbmJrM7557mQaJ3HclozHBuWn5Gy"
+    }
+  },
+  "libraryArchive": "XZekzV7ZrbmJrM7557mQaJ3HclozHBuWn5Gy"
+}
