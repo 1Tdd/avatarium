@@ -178,7 +178,7 @@ export default function Guide() {
                 </ul>
               </div>
               <ul className="check-list">
-                <li><Icon name="check" size={18} /><span>The complete library has <strong>555 items</strong> in the main folder: 278 JSON files and 277 folders. A selection has fewer.</span></li>
+                <li><Icon name="check" size={18} /><span>The complete library has <strong>559 items</strong> in the main folder: 280 JSON files and 279 folders. A selection has fewer.</span></li>
                 <li><Icon name="check" size={18} /><span>There is no <code>AVATARIUM</code> folder inside <code>AVATARIUM</code>.</span></li>
                 <li><Icon name="check" size={18} /><span>Uploads have finished: a picture and a manifest both open on your storage.</span></li>
                 <li><Icon name="check" size={18} /><span>Nothing was renamed. Filenames, spaces and capitalisation must match the manifest.</span></li>
