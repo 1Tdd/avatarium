@@ -108,6 +108,7 @@ export default function Guide() {
               </div>
               <h3>How the pieces fit</h3>
               <p>This website is a catalog: it lets you browse and download. The pictures then live on <em>your</em> storage, and your Jellyfin app loads them from there. Saving files and adding packs in your Jellyfin app are two separate steps — this guide covers both.</p>
+              <p className="small muted">Menu and button names in this guide can differ from one Jellyfin app to another, and between versions. If yours uses other words, look for the equivalent: a place to add a WebDAV server, and a profile picture setting that can load packs from it.</p>
               <p className="notice">Never enter your pCloud password on this website. You only type it on pCloud itself and, later, inside your Jellyfin app.</p>
             </>
           ) : null}
