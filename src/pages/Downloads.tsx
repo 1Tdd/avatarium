@@ -1,6 +1,6 @@
 import {useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import {useLibrary} from '../lib/data';
+import {useLibrary, useArchiveBytes} from '../lib/data';
 import {useSelection} from '../lib/selection';
 import {useCloud} from '../components/CloudDialog';
 import {manifestsZip, formatBytes, formatCount} from '../lib/pcloud';
@@ -12,6 +12,7 @@ export default function Downloads() {
   const selection = useSelection();
   const cloud = useCloud();
   const audit = config.downloadAudit;
+  const archiveBytes = useArchiveBytes();
   const audited = new Date(catalog.auditedAt + 'T00:00:00').toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'});
 
   useEffect(() => {
@@ -44,7 +45,7 @@ export default function Downloads() {
           <h2>Complete library</h2>
           <p>{formatCount(catalog.imageCount)} images and every manifest in one ZIP, for manual upload to pCloud or another WebDAV storage.</p>
           <ul>
-            <li>{audit?.library ? config.libraryArchive ? `${formatBytes(audit.library.bytes)}, ready to download` : `About ${formatBytes(audit.library.bytes)}` : 'Size varies'}</li>
+            <li>{archiveBytes ? config.libraryArchive ? `${formatBytes(archiveBytes)}, ready to download` : `About ${formatBytes(archiveBytes)}` : 'Size varies'}</li>
             <li>Allow about 6 GB locally for the ZIP and its contents</li>
           </ul>
           <LibraryButton />

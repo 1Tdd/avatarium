@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import {Link, useSearchParams} from 'react-router-dom';
 import {encodeSelection, decodeSelection} from '../lib/share';
-import {useLibrary} from '../lib/data';
+import {useLibrary, useArchiveBytes} from '../lib/data';
 import {useSelection} from '../lib/selection';
 import {selectionZip, manifestsZip, manifestsZipFor, formatBytes, formatCount, avatarCount, downloadManifest, SELECTION_ZIP_LIMIT} from '../lib/pcloud';
 import {Thumbnail} from '../components/Media';
@@ -12,6 +12,7 @@ const LIST_PREVIEW = 30;
 
 export default function Selection() {
   const {catalog, config} = useLibrary();
+  const archiveBytes = useArchiveBytes();
   const {packs, remove, clear, addMany, all} = useSelection();
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState('');
@@ -143,7 +144,7 @@ export default function Selection() {
           <dl>
             <div><dt>Packs</dt><dd>{packs.length}</dd></div>
             <div><dt>Avatars</dt><dd>{formatCount(avatars)}</dd></div>
-            <div><dt>Approx. size</dt><dd>{formatBytes(all && config.downloadAudit?.library ? config.downloadAudit.library.bytes : bytes)}</dd></div>
+            <div><dt>Approx. size</dt><dd>{formatBytes(all && archiveBytes ? archiveBytes : bytes)}</dd></div>
           </dl>
           {!config.downloadsEnabled ? (
             <button className="button block" disabled>Downloads unavailable</button>

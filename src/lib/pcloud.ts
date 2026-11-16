@@ -57,6 +57,25 @@ export async function libraryArchiveUrl(c: Config) {
   return `https://${host}${data.path}`;
 }
 
+let archiveBytes: Promise<number> | undefined;
+
+/** Current size of the ready-made complete ZIP, read from its pCloud public link (asked once per visit). */
+export function libraryArchiveBytes(c: Config) {
+  if (!c.libraryArchive || !/^[A-Za-z0-9]+$/.test(c.libraryArchive)) return Promise.reject(Error('No ready-made archive.'));
+  archiveBytes ??= fetch(`${c.apiOrigin}/showpublink?code=${c.libraryArchive}`, {referrerPolicy: 'no-referrer', signal: AbortSignal.timeout(15000)})
+    .then(r => r.json())
+    .then(data => {
+      const size = data?.metadata?.size;
+      if (data?.result !== 0 || !Number.isSafeInteger(size) || size <= 0) throw Error('pCloud did not report the archive size.');
+      return size as number;
+    })
+    .catch(e => {
+      archiveBytes = undefined;
+      throw e;
+    });
+  return archiveBytes;
+}
+
 /** The complete library packed by pCloud on request. Slow to start; used when no ready-made archive is set. */
 export function fullZip(c: Config, cat: Catalog) {
   return zipUrl(c, {folderids: cat.rootFolderId, filename: 'AVATARIUM.zip'});
