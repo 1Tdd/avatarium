@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://avatars.italianodoc.eu"><img src="public/og-image.png" alt="Avatarium: 273 packs, 5,466 avatars" width="720"></a>
+  <a href="https://avatars.italianodoc.eu"><img src="public/og-image.png" alt="Avatarium: 277 packs, 5,521 avatars" width="720"></a>
 </p>
 
 <h1 align="center">Avatarium</h1>
@@ -17,7 +17,7 @@
 
 ## What you get
 
-- **273 packs, 5,466 avatars**, 1,674 of them animated, from eleven platforms: Netflix, Crunchyroll, Prime Video, Disney Plus, Apple TV, PlayStation, Steam and more.
+- **277 packs, 5,521 avatars**, 1,674 of them animated, from eleven platforms: Netflix, Crunchyroll, Prime Video, Disney Plus, Apple TV, PlayStation, Steam and more.
 - **Search by character.** Type a name and jump straight to that picture, whichever pack it is in.
 - **Take only what you want.** Collect packs in a selection and download them as one ZIP, already laid out the way your Jellyfin app expects. Or copy the whole library to your pCloud in one step.
 - **Try before you download.** Put up to five avatars on a preview of your Jellyfin app's "Who's Watching" screen.
