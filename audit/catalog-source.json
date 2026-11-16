@@ -1366,8 +1366,8 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "2Bluenagi Nagi",
-    "path": "Crunchyroll - BLUE LOCK/2Bluenagi Nagi.png",
+    "name": "Nagi - Episode Nagi 2",
+    "path": "Crunchyroll - BLUE LOCK/Nagi - Episode Nagi 2.png",
     "bytes": 48724,
     "width": 170,
     "height": 170,
@@ -1390,8 +1390,8 @@
     "animated": false
    },
    {
-    "name": "Bachira Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Bachira Teaser.png",
+    "name": "Bachira - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Bachira - Teaser.png",
     "bytes": 51808,
     "width": 170,
     "height": 170,
@@ -1406,56 +1406,56 @@
     "animated": false
    },
    {
-    "name": "Bluenagi Chigiri",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Chigiri.png",
+    "name": "Chigiri - Episode Nagi",
+    "path": "Crunchyroll - BLUE LOCK/Chigiri - Episode Nagi.png",
     "bytes": 57381,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bluenagi Isagi",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Isagi.png",
+    "name": "Isagi - Episode Nagi",
+    "path": "Crunchyroll - BLUE LOCK/Isagi - Episode Nagi.png",
     "bytes": 49415,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bluenagi Kunigami",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Kunigami.png",
+    "name": "Kunigami - Episode Nagi",
+    "path": "Crunchyroll - BLUE LOCK/Kunigami - Episode Nagi.png",
     "bytes": 48662,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bluenagi Nagi School",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Nagi School.png",
+    "name": "Nagi - Episode Nagi (School)",
+    "path": "Crunchyroll - BLUE LOCK/Nagi - Episode Nagi (School).png",
     "bytes": 55287,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bluenagi Reo",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Reo.png",
+    "name": "Reo - Episode Nagi",
+    "path": "Crunchyroll - BLUE LOCK/Reo - Episode Nagi.png",
     "bytes": 48623,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bluenagi Reo School",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Reo School.png",
+    "name": "Reo - Episode Nagi (School)",
+    "path": "Crunchyroll - BLUE LOCK/Reo - Episode Nagi (School).png",
     "bytes": 43457,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bluenagi Rin",
-    "path": "Crunchyroll - BLUE LOCK/Bluenagi Rin.png",
+    "name": "Rin - Episode Nagi",
+    "path": "Crunchyroll - BLUE LOCK/Rin - Episode Nagi.png",
     "bytes": 51571,
     "width": 170,
     "height": 170,
@@ -1478,8 +1478,8 @@
     "animated": false
    },
    {
-    "name": "Hiori Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Hiori Teaser.png",
+    "name": "Hiori - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Hiori - Teaser.png",
     "bytes": 52265,
     "width": 170,
     "height": 170,
@@ -1494,24 +1494,24 @@
     "animated": false
    },
    {
-    "name": "Isagi Kv1",
-    "path": "Crunchyroll - BLUE LOCK/Isagi Kv1.png",
+    "name": "Isagi - Key Visual",
+    "path": "Crunchyroll - BLUE LOCK/Isagi - Key Visual.png",
     "bytes": 58183,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Isagi Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Isagi Teaser.png",
+    "name": "Isagi - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Isagi - Teaser.png",
     "bytes": 59685,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Karasu Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Karasu Teaser.png",
+    "name": "Karasu - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Karasu - Teaser.png",
     "bytes": 45404,
     "width": 170,
     "height": 170,
@@ -1534,32 +1534,32 @@
     "animated": false
    },
    {
-    "name": "Nagi Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Nagi Teaser.png",
+    "name": "Nagi - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Nagi - Teaser.png",
     "bytes": 55458,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Nanase Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Nanase Teaser.png",
+    "name": "Nanase - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Nanase - Teaser.png",
     "bytes": 47626,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Oliver Kv1",
-    "path": "Crunchyroll - BLUE LOCK/Oliver Kv1.png",
+    "name": "Oliver - Key Visual",
+    "path": "Crunchyroll - BLUE LOCK/Oliver - Key Visual.png",
     "bytes": 56581,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Otoya Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Otoya Teaser.png",
+    "name": "Otoya - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Otoya - Teaser.png",
     "bytes": 50271,
     "width": 170,
     "height": 170,
@@ -1582,48 +1582,48 @@
     "animated": false
    },
    {
-    "name": "Rin Kv1",
-    "path": "Crunchyroll - BLUE LOCK/Rin Kv1.png",
+    "name": "Rin - Key Visual",
+    "path": "Crunchyroll - BLUE LOCK/Rin - Key Visual.png",
     "bytes": 57582,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rin Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Rin Teaser.png",
+    "name": "Rin - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Rin - Teaser.png",
     "bytes": 54671,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sae Kv1",
-    "path": "Crunchyroll - BLUE LOCK/Sae Kv1.png",
+    "name": "Sae - Key Visual",
+    "path": "Crunchyroll - BLUE LOCK/Sae - Key Visual.png",
     "bytes": 59273,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sae Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Sae Teaser.png",
+    "name": "Sae - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Sae - Teaser.png",
     "bytes": 51228,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Shidou Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Shidou Teaser.png",
+    "name": "Shidou - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Shidou - Teaser.png",
     "bytes": 58147,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Yukimiya Teaser",
-    "path": "Crunchyroll - BLUE LOCK/Yukimiya Teaser.png",
+    "name": "Yukimiya - Teaser",
+    "path": "Crunchyroll - BLUE LOCK/Yukimiya - Teaser.png",
     "bytes": 50358,
     "width": 170,
     "height": 170,
@@ -1654,56 +1654,56 @@
     "animated": false
    },
    {
-    "name": "Bocchi Iita Kv",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi Iita Kv.jpg",
+    "name": "Kita - Key Visual",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Kita - Key Visual.jpg",
     "bytes": 52287,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bocchi Kita",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi Kita.jpg",
+    "name": "Kita",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Kita.jpg",
     "bytes": 47543,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bocchi Kv",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi Kv.jpg",
+    "name": "Bocchi - Key Visual",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi - Key Visual.jpg",
     "bytes": 34771,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bocchi Nijika Kv",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi Nijika Kv.jpg",
+    "name": "Nijika - Key Visual",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Nijika - Key Visual.jpg",
     "bytes": 42904,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bocchi Ryo",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi Ryo.jpg",
+    "name": "Ryo",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Ryo.jpg",
     "bytes": 40082,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bocchi Ryo Kv",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bocchi Ryo Kv.jpg",
+    "name": "Ryo - Key Visual",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Ryo - Key Visual.jpg",
     "bytes": 43167,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Bochhi Nijika",
-    "path": "Crunchyroll - BOCCHI THE ROCK!/Bochhi Nijika.jpg",
+    "name": "Nijika",
+    "path": "Crunchyroll - BOCCHI THE ROCK!/Nijika.jpg",
     "bytes": 46995,
     "width": 170,
     "height": 170,
@@ -1806,8 +1806,8 @@
     "animated": false
    },
    {
-    "name": "Alicia Kv",
-    "path": "Crunchyroll - Clevatess/Alicia Kv.png",
+    "name": "Alicia - Key Visual",
+    "path": "Crunchyroll - Clevatess/Alicia - Key Visual.png",
     "bytes": 48631,
     "width": 170,
     "height": 170,
@@ -1830,8 +1830,8 @@
     "animated": false
    },
    {
-    "name": "Klen Kv",
-    "path": "Crunchyroll - Clevatess/Klen Kv.png",
+    "name": "Klen - Key Visual",
+    "path": "Crunchyroll - Clevatess/Klen - Key Visual.png",
     "bytes": 45749,
     "width": 170,
     "height": 170,
@@ -1846,8 +1846,8 @@
     "animated": false
    },
    {
-    "name": "Luna Kv",
-    "path": "Crunchyroll - Clevatess/Luna Kv.png",
+    "name": "Luna - Key Visual",
+    "path": "Crunchyroll - Clevatess/Luna - Key Visual.png",
     "bytes": 47639,
     "width": 170,
     "height": 170,
@@ -2014,16 +2014,16 @@
     "animated": false
    },
    {
-    "name": "Mangaeye Taupe",
-    "path": "Crunchyroll - Crunchyroll/Mangaeye Taupe.jpg",
+    "name": "Manga Eye Taupe",
+    "path": "Crunchyroll - Crunchyroll/Manga Eye Taupe.jpg",
     "bytes": 32335,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mangagirl Taupe",
-    "path": "Crunchyroll - Crunchyroll/Mangagirl Taupe.jpg",
+    "name": "Manga Girl Taupe",
+    "path": "Crunchyroll - Crunchyroll/Manga Girl Taupe.jpg",
     "bytes": 34591,
     "width": 170,
     "height": 170,
@@ -2038,8 +2038,8 @@
     "animated": false
    },
    {
-    "name": "Mech Orange2",
-    "path": "Crunchyroll - Crunchyroll/Mech Orange2.jpg",
+    "name": "Mech Orange 2",
+    "path": "Crunchyroll - Crunchyroll/Mech Orange 2.jpg",
     "bytes": 65313,
     "width": 170,
     "height": 170,
@@ -2054,8 +2054,8 @@
     "animated": false
    },
    {
-    "name": "Mech Taupe2",
-    "path": "Crunchyroll - Crunchyroll/Mech Taupe2.jpg",
+    "name": "Mech Taupe 2",
+    "path": "Crunchyroll - Crunchyroll/Mech Taupe 2.jpg",
     "bytes": 48623,
     "width": 170,
     "height": 170,
@@ -2134,16 +2134,16 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Boneheadedbrawler",
-    "path": "Crunchyroll - Crunchyroll Arc/Boneheadedbrawler.jpg",
+    "name": "Boneheaded Brawler",
+    "path": "Crunchyroll - Crunchyroll Arc/Boneheaded Brawler.jpg",
     "bytes": 46603,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Dreadcollector",
-    "path": "Crunchyroll - Crunchyroll Arc/Dreadcollector.jpg",
+    "name": "Dread Collector",
+    "path": "Crunchyroll - Crunchyroll Arc/Dread Collector.jpg",
     "bytes": 46386,
     "width": 170,
     "height": 170,
@@ -2182,8 +2182,8 @@
     "animated": false
    },
    {
-    "name": "Wanderingneko",
-    "path": "Crunchyroll - Crunchyroll Arc/Wanderingneko.jpg",
+    "name": "Wandering Neko",
+    "path": "Crunchyroll - Crunchyroll Arc/Wandering Neko.jpg",
     "bytes": 51013,
     "width": 170,
     "height": 170,
@@ -2278,8 +2278,8 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Dotm 02",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Dotm 02.png",
+    "name": "Dawn of the Monsters 02",
+    "path": "Crunchyroll - Crunchyroll Game Vault/Dawn of the Monsters 02.png",
     "bytes": 50830,
     "width": 170,
     "height": 170,
@@ -2318,72 +2318,72 @@
     "animated": false
    },
    {
-    "name": "Rcg1 02",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rcg1 02.png",
+    "name": "River City Girls 02",
+    "path": "Crunchyroll - Crunchyroll Game Vault/River City Girls 02.png",
     "bytes": 40601,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rcg1 04",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rcg1 04.png",
+    "name": "River City Girls 04",
+    "path": "Crunchyroll - Crunchyroll Game Vault/River City Girls 04.png",
     "bytes": 38764,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rcg2 01",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rcg2 01.png",
+    "name": "River City Girls 2 01",
+    "path": "Crunchyroll - Crunchyroll Game Vault/River City Girls 2 01.png",
     "bytes": 45882,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rcg2 03",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rcg2 03.png",
+    "name": "River City Girls 2 03",
+    "path": "Crunchyroll - Crunchyroll Game Vault/River City Girls 2 03.png",
     "bytes": 50172,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rcg2 04",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rcg2 04.png",
+    "name": "River City Girls 2 04",
+    "path": "Crunchyroll - Crunchyroll Game Vault/River City Girls 2 04.png",
     "bytes": 41089,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rwby 01",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rwby 01.png",
+    "name": "RWBY 01",
+    "path": "Crunchyroll - Crunchyroll Game Vault/RWBY 01.png",
     "bytes": 39521,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rwby 02",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rwby 02.png",
+    "name": "RWBY 02",
+    "path": "Crunchyroll - Crunchyroll Game Vault/RWBY 02.png",
     "bytes": 39040,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rwby 03",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rwby 03.png",
+    "name": "RWBY 03",
+    "path": "Crunchyroll - Crunchyroll Game Vault/RWBY 03.png",
     "bytes": 40187,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rwby 04",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Rwby 04.png",
+    "name": "RWBY 04",
+    "path": "Crunchyroll - Crunchyroll Game Vault/RWBY 04.png",
     "bytes": 41728,
     "width": 170,
     "height": 170,
@@ -2398,8 +2398,8 @@
     "animated": false
    },
    {
-    "name": "Sss 01",
-    "path": "Crunchyroll - Crunchyroll Game Vault/Sss 01.png",
+    "name": "Shantae 01",
+    "path": "Crunchyroll - Crunchyroll Game Vault/Shantae 01.png",
     "bytes": 43142,
     "width": 170,
     "height": 170,
@@ -2438,8 +2438,8 @@
     "animated": false
    },
    {
-    "name": "Asa Kv",
-    "path": "Crunchyroll - Daemons of the Shadow Realm/Asa Kv.png",
+    "name": "Asa - Key Visual",
+    "path": "Crunchyroll - Daemons of the Shadow Realm/Asa - Key Visual.png",
     "bytes": 49538,
     "width": 170,
     "height": 170,
@@ -3238,80 +3238,80 @@
     "animated": false
    },
    {
-    "name": "Frieren Eisen 1",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Eisen 1.png",
+    "name": "Eisen 1",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Eisen 1.png",
     "bytes": 41285,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Eisen 2",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Eisen 2.png",
+    "name": "Eisen 2",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Eisen 2.png",
     "bytes": 39445,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Fern 1",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Fern 1.png",
+    "name": "Fern 1",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Fern 1.png",
     "bytes": 41694,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Fern 2",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Fern 2.png",
+    "name": "Fern 2",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Fern 2.png",
     "bytes": 43415,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Heiter 1",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Heiter 1.png",
+    "name": "Heiter 1",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Heiter 1.png",
     "bytes": 37108,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Heiter 2",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Heiter 2.png",
+    "name": "Heiter 2",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Heiter 2.png",
     "bytes": 37709,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Himmel 1",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Himmel 1.png",
+    "name": "Himmel 1",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Himmel 1.png",
     "bytes": 41781,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Himmel 2",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Himmel 2.png",
+    "name": "Himmel 2",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Himmel 2.png",
     "bytes": 41063,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Stark 1",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Stark 1.png",
+    "name": "Stark 1",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Stark 1.png",
     "bytes": 42030,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Frieren Stark 2",
-    "path": "Crunchyroll - Frieren - Beyond Journey's End/Frieren Stark 2.png",
+    "name": "Stark 2",
+    "path": "Crunchyroll - Frieren - Beyond Journey's End/Stark 2.png",
     "bytes": 43767,
     "width": 170,
     "height": 170,
@@ -4070,16 +4070,16 @@
     "animated": false
    },
    {
-    "name": "Clarie Kv1",
-    "path": "Crunchyroll - I'm in Love with the Villainess/Clarie Kv1.png",
+    "name": "Clarie - Key Visual 1",
+    "path": "Crunchyroll - I'm in Love with the Villainess/Clarie - Key Visual 1.png",
     "bytes": 45426,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Clarie Kv2",
-    "path": "Crunchyroll - I'm in Love with the Villainess/Clarie Kv2.png",
+    "name": "Clarie - Key Visual 2",
+    "path": "Crunchyroll - I'm in Love with the Villainess/Clarie - Key Visual 2.png",
     "bytes": 48686,
     "width": 170,
     "height": 170,
@@ -4118,16 +4118,16 @@
     "animated": false
    },
    {
-    "name": "Rae Kv1",
-    "path": "Crunchyroll - I'm in Love with the Villainess/Rae Kv1.png",
+    "name": "Rae - Key Visual 1",
+    "path": "Crunchyroll - I'm in Love with the Villainess/Rae - Key Visual 1.png",
     "bytes": 40821,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Rae Kv2",
-    "path": "Crunchyroll - I'm in Love with the Villainess/Rae Kv2.png",
+    "name": "Rae - Key Visual 2",
+    "path": "Crunchyroll - I'm in Love with the Villainess/Rae - Key Visual 2.png",
     "bytes": 49546,
     "width": 170,
     "height": 170,
@@ -4438,8 +4438,8 @@
     "animated": false
    },
    {
-    "name": "Klein Kv",
-    "path": "Crunchyroll - Lord of Mysteries/Klein Kv.png",
+    "name": "Klein - Key Visual",
+    "path": "Crunchyroll - Lord of Mysteries/Klein - Key Visual.png",
     "bytes": 50565,
     "width": 170,
     "height": 170,
@@ -4518,8 +4518,8 @@
     "animated": false
    },
    {
-    "name": "Scarlet Kv",
-    "path": "Crunchyroll - May I Ask for One Final Thing -/Scarlet Kv.png",
+    "name": "Scarlet - Key Visual",
+    "path": "Crunchyroll - May I Ask for One Final Thing -/Scarlet - Key Visual.png",
     "bytes": 46916,
     "width": 170,
     "height": 170,
@@ -5014,136 +5014,136 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Avatars Big Mom",
-    "path": "Crunchyroll - One Piece/Avatars Big Mom.png",
+    "name": "Big Mom - Portrait",
+    "path": "Crunchyroll - One Piece/Big Mom - Portrait.png",
     "bytes": 50980,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Brook",
-    "path": "Crunchyroll - One Piece/Avatars Brook.png",
+    "name": "Brook - Portrait",
+    "path": "Crunchyroll - One Piece/Brook - Portrait.png",
     "bytes": 34057,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Chopper",
-    "path": "Crunchyroll - One Piece/Avatars Chopper.png",
+    "name": "Chopper - Portrait",
+    "path": "Crunchyroll - One Piece/Chopper - Portrait.png",
     "bytes": 51075,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Franky",
-    "path": "Crunchyroll - One Piece/Avatars Franky.png",
+    "name": "Franky - Portrait",
+    "path": "Crunchyroll - One Piece/Franky - Portrait.png",
     "bytes": 44474,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Jinbei",
-    "path": "Crunchyroll - One Piece/Avatars Jinbei.png",
+    "name": "Jinbe - Portrait",
+    "path": "Crunchyroll - One Piece/Jinbe - Portrait.png",
     "bytes": 44494,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Kaido",
-    "path": "Crunchyroll - One Piece/Avatars Kaido.png",
+    "name": "Kaido - Portrait",
+    "path": "Crunchyroll - One Piece/Kaido - Portrait.png",
     "bytes": 46788,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Kid",
-    "path": "Crunchyroll - One Piece/Avatars Kid.png",
+    "name": "Kid - Portrait",
+    "path": "Crunchyroll - One Piece/Kid - Portrait.png",
     "bytes": 40560,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Law",
-    "path": "Crunchyroll - One Piece/Avatars Law.png",
+    "name": "Law - Portrait",
+    "path": "Crunchyroll - One Piece/Law - Portrait.png",
     "bytes": 44136,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Luffy",
-    "path": "Crunchyroll - One Piece/Avatars Luffy.png",
+    "name": "Luffy - Portrait",
+    "path": "Crunchyroll - One Piece/Luffy - Portrait.png",
     "bytes": 39533,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Nami",
-    "path": "Crunchyroll - One Piece/Avatars Nami.png",
+    "name": "Nami - Portrait",
+    "path": "Crunchyroll - One Piece/Nami - Portrait.png",
     "bytes": 47703,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Perona",
-    "path": "Crunchyroll - One Piece/Avatars Perona.png",
+    "name": "Perona - Portrait",
+    "path": "Crunchyroll - One Piece/Perona - Portrait.png",
     "bytes": 54679,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Robin",
-    "path": "Crunchyroll - One Piece/Avatars Robin.png",
+    "name": "Robin - Portrait",
+    "path": "Crunchyroll - One Piece/Robin - Portrait.png",
     "bytes": 41579,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Sanji",
-    "path": "Crunchyroll - One Piece/Avatars Sanji.png",
+    "name": "Sanji - Portrait",
+    "path": "Crunchyroll - One Piece/Sanji - Portrait.png",
     "bytes": 38082,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Shanks",
-    "path": "Crunchyroll - One Piece/Avatars Shanks.png",
+    "name": "Shanks - Portrait",
+    "path": "Crunchyroll - One Piece/Shanks - Portrait.png",
     "bytes": 39421,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Usopp",
-    "path": "Crunchyroll - One Piece/Avatars Usopp.png",
+    "name": "Usopp - Portrait",
+    "path": "Crunchyroll - One Piece/Usopp - Portrait.png",
     "bytes": 42315,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Yamato",
-    "path": "Crunchyroll - One Piece/Avatars Yamato.png",
+    "name": "Yamato - Portrait",
+    "path": "Crunchyroll - One Piece/Yamato - Portrait.png",
     "bytes": 49164,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Avatars Zoro",
-    "path": "Crunchyroll - One Piece/Avatars Zoro.png",
+    "name": "Zoro - Portrait",
+    "path": "Crunchyroll - One Piece/Zoro - Portrait.png",
     "bytes": 36708,
     "width": 170,
     "height": 170,
@@ -5190,80 +5190,80 @@
     "animated": false
    },
    {
-    "name": "Egghead Brook",
-    "path": "Crunchyroll - One Piece/Egghead Brook.png",
+    "name": "Brook - Egghead",
+    "path": "Crunchyroll - One Piece/Brook - Egghead.png",
     "bytes": 53897,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Chopper",
-    "path": "Crunchyroll - One Piece/Egghead Chopper.png",
+    "name": "Chopper - Egghead",
+    "path": "Crunchyroll - One Piece/Chopper - Egghead.png",
     "bytes": 54358,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Franky",
-    "path": "Crunchyroll - One Piece/Egghead Franky.png",
+    "name": "Franky - Egghead",
+    "path": "Crunchyroll - One Piece/Franky - Egghead.png",
     "bytes": 44111,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Jimbei",
-    "path": "Crunchyroll - One Piece/Egghead Jimbei.png",
+    "name": "Jinbe - Egghead",
+    "path": "Crunchyroll - One Piece/Jinbe - Egghead.png",
     "bytes": 41435,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Luffy",
-    "path": "Crunchyroll - One Piece/Egghead Luffy.png",
+    "name": "Luffy - Egghead",
+    "path": "Crunchyroll - One Piece/Luffy - Egghead.png",
     "bytes": 52147,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Nami",
-    "path": "Crunchyroll - One Piece/Egghead Nami.png",
+    "name": "Nami - Egghead",
+    "path": "Crunchyroll - One Piece/Nami - Egghead.png",
     "bytes": 56333,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Robin",
-    "path": "Crunchyroll - One Piece/Egghead Robin.png",
+    "name": "Robin - Egghead",
+    "path": "Crunchyroll - One Piece/Robin - Egghead.png",
     "bytes": 54300,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Sanji",
-    "path": "Crunchyroll - One Piece/Egghead Sanji.png",
+    "name": "Sanji - Egghead",
+    "path": "Crunchyroll - One Piece/Sanji - Egghead.png",
     "bytes": 58079,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Usopp",
-    "path": "Crunchyroll - One Piece/Egghead Usopp.png",
+    "name": "Usopp - Egghead",
+    "path": "Crunchyroll - One Piece/Usopp - Egghead.png",
     "bytes": 50786,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Egghead Zoro",
-    "path": "Crunchyroll - One Piece/Egghead Zoro.png",
+    "name": "Zoro - Egghead",
+    "path": "Crunchyroll - One Piece/Zoro - Egghead.png",
     "bytes": 48482,
     "width": 170,
     "height": 170,
@@ -5302,32 +5302,32 @@
     "animated": false
    },
    {
-    "name": "Jimbei 1",
-    "path": "Crunchyroll - One Piece/Jimbei 1.png",
+    "name": "Jinbe 1",
+    "path": "Crunchyroll - One Piece/Jinbe 1.png",
     "bytes": 39299,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Jimbei 2",
-    "path": "Crunchyroll - One Piece/Jimbei 2.png",
+    "name": "Jinbe 2",
+    "path": "Crunchyroll - One Piece/Jinbe 2.png",
     "bytes": 37865,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Jimbei 3",
-    "path": "Crunchyroll - One Piece/Jimbei 3.png",
+    "name": "Jinbe 3",
+    "path": "Crunchyroll - One Piece/Jinbe 3.png",
     "bytes": 40221,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Jimbei 4",
-    "path": "Crunchyroll - One Piece/Jimbei 4.png",
+    "name": "Jinbe 4",
+    "path": "Crunchyroll - One Piece/Jinbe 4.png",
     "bytes": 41747,
     "width": 170,
     "height": 170,
@@ -6294,120 +6294,120 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Chizuru S1 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Chizuru S1 Date Kv.jpg",
+    "name": "Chizuru - S1 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Chizuru - S1 Date Key Visual.jpg",
     "bytes": 56315,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Chizuru S2 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Chizuru S2 Date Kv.jpg",
+    "name": "Chizuru - S2 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Chizuru - S2 Date Key Visual.jpg",
     "bytes": 50826,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Chizuru S3 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Chizuru S3 Date Kv.jpg",
+    "name": "Chizuru - S3 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Chizuru - S3 Date Key Visual.jpg",
     "bytes": 51044,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mami S1 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Mami S1 Date Kv.jpg",
+    "name": "Mami - S1 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Mami - S1 Date Key Visual.jpg",
     "bytes": 45576,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mami S2 Date Kv 1",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Mami S2 Date Kv 1.jpg",
+    "name": "Mami - S2 Date Key Visual 1",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Mami - S2 Date Key Visual 1.jpg",
     "bytes": 46950,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mami S2 Date Kv 2",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Mami S2 Date Kv 2.jpg",
+    "name": "Mami - S2 Date Key Visual 2",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Mami - S2 Date Key Visual 2.jpg",
     "bytes": 46675,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mami S3 Date Kv 1",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Mami S3 Date Kv 1.jpg",
+    "name": "Mami - S3 Date Key Visual 1",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Mami - S3 Date Key Visual 1.jpg",
     "bytes": 51756,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mami S3 Date Kv 2",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Mami S3 Date Kv 2.jpg",
+    "name": "Mami - S3 Date Key Visual 2",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Mami - S3 Date Key Visual 2.jpg",
     "bytes": 43440,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Ruka S1 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Ruka S1 Date Kv.jpg",
+    "name": "Ruka - S1 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Ruka - S1 Date Key Visual.jpg",
     "bytes": 44864,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Ruka S2 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Ruka S2 Date Kv.jpg",
+    "name": "Ruka - S2 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Ruka - S2 Date Key Visual.jpg",
     "bytes": 46029,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Ruka S3 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Ruka S3 Date Kv.jpg",
+    "name": "Ruka - S3 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Ruka - S3 Date Key Visual.jpg",
     "bytes": 50038,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sumi S1 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Sumi S1 Date Kv.jpg",
+    "name": "Sumi - S1 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Sumi - S1 Date Key Visual.jpg",
     "bytes": 46933,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Yaemori S3 Date Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Yaemori S3 Date Kv.jpg",
+    "name": "Yaemori - S3 Date Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Yaemori - S3 Date Key Visual.jpg",
     "bytes": 50561,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Yaemori S3 Main Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Yaemori S3 Main Kv.jpg",
+    "name": "Yaemori - S3 Main Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Yaemori - S3 Main Key Visual.jpg",
     "bytes": 49086,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Yaemori S3 Teaser Kv",
-    "path": "Crunchyroll - Rent-a-Girlfriend/Yaemori S3 Teaser Kv.jpg",
+    "name": "Yaemori - S3 Teaser Key Visual",
+    "path": "Crunchyroll - Rent-a-Girlfriend/Yaemori - S3 Teaser Key Visual.jpg",
     "bytes": 45632,
     "width": 170,
     "height": 170,
@@ -6478,8 +6478,8 @@
     "animated": false
    },
    {
-    "name": "Teoritta Kv",
-    "path": "Crunchyroll - Sentenced to Be a Hero/Teoritta Kv.png",
+    "name": "Teoritta - Key Visual",
+    "path": "Crunchyroll - Sentenced to Be a Hero/Teoritta - Key Visual.png",
     "bytes": 51607,
     "width": 170,
     "height": 170,
@@ -6510,8 +6510,8 @@
     "animated": false
    },
    {
-    "name": "Xylo Kv",
-    "path": "Crunchyroll - Sentenced to Be a Hero/Xylo Kv.png",
+    "name": "Xylo - Key Visual",
+    "path": "Crunchyroll - Sentenced to Be a Hero/Xylo - Key Visual.png",
     "bytes": 51661,
     "width": 170,
     "height": 170,
@@ -6686,8 +6686,8 @@
     "animated": false
    },
    {
-    "name": "Sasaki Kv",
-    "path": "Crunchyroll - Smoking Behind the Supermarket with You/Sasaki Kv.png",
+    "name": "Sasaki - Key Visual",
+    "path": "Crunchyroll - Smoking Behind the Supermarket with You/Sasaki - Key Visual.png",
     "bytes": 38432,
     "width": 170,
     "height": 170,
@@ -6718,16 +6718,16 @@
     "animated": false
    },
    {
-    "name": "Tayama Kv",
-    "path": "Crunchyroll - Smoking Behind the Supermarket with You/Tayama Kv.png",
+    "name": "Tayama - Key Visual",
+    "path": "Crunchyroll - Smoking Behind the Supermarket with You/Tayama - Key Visual.png",
     "bytes": 37946,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Yamada Avatar1",
-    "path": "Crunchyroll - Smoking Behind the Supermarket with You/Yamada Avatar1.png",
+    "name": "Yamada",
+    "path": "Crunchyroll - Smoking Behind the Supermarket with You/Yamada.png",
     "bytes": 45096,
     "width": 170,
     "height": 170,
@@ -6742,40 +6742,40 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "So Im A Spider So What Fei",
-    "path": "Crunchyroll - So I'm a Spider, So What -/So Im A Spider So What Fei.png",
+    "name": "Fei",
+    "path": "Crunchyroll - So I'm a Spider, So What -/Fei.png",
     "bytes": 14537,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "So Im A Spider So What Katia",
-    "path": "Crunchyroll - So I'm a Spider, So What -/So Im A Spider So What Katia.png",
+    "name": "Katia",
+    "path": "Crunchyroll - So I'm a Spider, So What -/Katia.png",
     "bytes": 22610,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "So Im A Spider So What Kumoko",
-    "path": "Crunchyroll - So I'm a Spider, So What -/So Im A Spider So What Kumoko.png",
+    "name": "Kumoko",
+    "path": "Crunchyroll - So I'm a Spider, So What -/Kumoko.png",
     "bytes": 23640,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "So Im A Spider So What Shun",
-    "path": "Crunchyroll - So I'm a Spider, So What -/So Im A Spider So What Shun.png",
+    "name": "Shun",
+    "path": "Crunchyroll - So I'm a Spider, So What -/Shun.png",
     "bytes": 19419,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "So Im A Spider So What Sue",
-    "path": "Crunchyroll - So I'm a Spider, So What -/So Im A Spider So What Sue.png",
+    "name": "Sue",
+    "path": "Crunchyroll - So I'm a Spider, So What -/Sue.png",
     "bytes": 23422,
     "width": 170,
     "height": 170,
@@ -6790,40 +6790,40 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Baekyoonho",
-    "path": "Crunchyroll - Solo Leveling S1/Baekyoonho.png",
+    "name": "Baek Yoonho",
+    "path": "Crunchyroll - Solo Leveling S1/Baek Yoonho.png",
     "bytes": 47215,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Chahaein",
-    "path": "Crunchyroll - Solo Leveling S1/Chahaein.png",
+    "name": "Cha Hae-In",
+    "path": "Crunchyroll - Solo Leveling S1/Cha Hae-In.png",
     "bytes": 49955,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Choijongin",
-    "path": "Crunchyroll - Solo Leveling S1/Choijongin.png",
+    "name": "Choi Jong-In",
+    "path": "Crunchyroll - Solo Leveling S1/Choi Jong-In.png",
     "bytes": 49749,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Gogunhee",
-    "path": "Crunchyroll - Solo Leveling S1/Gogunhee.png",
+    "name": "Go Gunhee",
+    "path": "Crunchyroll - Solo Leveling S1/Go Gunhee.png",
     "bytes": 46748,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sungjinwoo",
-    "path": "Crunchyroll - Solo Leveling S1/Sungjinwoo.png",
+    "name": "Sung Jinwoo",
+    "path": "Crunchyroll - Solo Leveling S1/Sung Jinwoo.png",
     "bytes": 44012,
     "width": 170,
     "height": 170,
@@ -6838,16 +6838,16 @@
     "animated": false
    },
    {
-    "name": "Woojinchul",
-    "path": "Crunchyroll - Solo Leveling S1/Woojinchul.png",
+    "name": "Woo Jinchul",
+    "path": "Crunchyroll - Solo Leveling S1/Woo Jinchul.png",
     "bytes": 45315,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Yoojinho",
-    "path": "Crunchyroll - Solo Leveling S1/Yoojinho.png",
+    "name": "Yoo Jinho",
+    "path": "Crunchyroll - Solo Leveling S1/Yoo Jinho.png",
     "bytes": 46753,
     "width": 170,
     "height": 170,
@@ -6862,40 +6862,40 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Sololeveling S2 1 V2 Choi",
-    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Sololeveling S2 1 V2 Choi.png",
+    "name": "Choi Jong-In",
+    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Choi Jong-In.png",
     "bytes": 39166,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sololeveling S2 2 V2 Jinwoo",
-    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Sololeveling S2 2 V2 Jinwoo.png",
+    "name": "Sung Jinwoo",
+    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Sung Jinwoo.png",
     "bytes": 39808,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sololeveling S2 3 V2 Igris",
-    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Sololeveling S2 3 V2 Igris.png",
+    "name": "Igris",
+    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Igris.png",
     "bytes": 36118,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sololeveling S2 4 V2 Baek",
-    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Sololeveling S2 4 V2 Baek.png",
+    "name": "Baek Yoonho",
+    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Baek Yoonho.png",
     "bytes": 44513,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Sololeveling S2 5 V2 Cha",
-    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Sololeveling S2 5 V2 Cha.png",
+    "name": "Cha Hae-In",
+    "path": "Crunchyroll - Solo Leveling S2 -Arise from the Shadow-/Cha Hae-In.png",
     "bytes": 55922,
     "width": 170,
     "height": 170,
@@ -8094,16 +8094,16 @@
     "animated": false
    },
    {
-    "name": "Dragonboy",
-    "path": "Crunchyroll - TO BE HERO X/Dragonboy.png",
+    "name": "Dragon Boy",
+    "path": "Crunchyroll - TO BE HERO X/Dragon Boy.png",
     "bytes": 58636,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Esoul",
-    "path": "Crunchyroll - TO BE HERO X/Esoul.png",
+    "name": "E-Soul",
+    "path": "Crunchyroll - TO BE HERO X/E-Soul.png",
     "bytes": 41257,
     "width": 170,
     "height": 170,
@@ -8118,8 +8118,8 @@
     "animated": false
    },
    {
-    "name": "Littlejohnny",
-    "path": "Crunchyroll - TO BE HERO X/Littlejohnny.png",
+    "name": "Little Johnny",
+    "path": "Crunchyroll - TO BE HERO X/Little Johnny.png",
     "bytes": 49786,
     "width": 170,
     "height": 170,
@@ -8134,8 +8134,8 @@
     "animated": false
    },
    {
-    "name": "Luckycyan",
-    "path": "Crunchyroll - TO BE HERO X/Luckycyan.png",
+    "name": "Lucky Cyan",
+    "path": "Crunchyroll - TO BE HERO X/Lucky Cyan.png",
     "bytes": 56526,
     "width": 170,
     "height": 170,
@@ -8158,8 +8158,8 @@
     "animated": false
    },
    {
-    "name": "Thecommoner",
-    "path": "Crunchyroll - TO BE HERO X/Thecommoner.png",
+    "name": "The Commoner",
+    "path": "Crunchyroll - TO BE HERO X/The Commoner.png",
     "bytes": 50043,
     "width": 170,
     "height": 170,
@@ -8238,16 +8238,16 @@
     "animated": false
    },
    {
-    "name": "Thebeholder",
-    "path": "Crunchyroll - To Your Eternity/Thebeholder.png",
+    "name": "The Beholder",
+    "path": "Crunchyroll - To Your Eternity/The Beholder.png",
     "bytes": 30736,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Theboy",
-    "path": "Crunchyroll - To Your Eternity/Theboy.png",
+    "name": "The Boy",
+    "path": "Crunchyroll - To Your Eternity/The Boy.png",
     "bytes": 36280,
     "width": 170,
     "height": 170,
@@ -8270,40 +8270,40 @@
   "platform": "Crunchyroll",
   "images": [
    {
-    "name": "Fushi Kv",
-    "path": "Crunchyroll - To Your Eternity S3/Fushi Kv.png",
+    "name": "Fushi - Key Visual",
+    "path": "Crunchyroll - To Your Eternity S3/Fushi - Key Visual.png",
     "bytes": 40713,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Fushi Teaser",
-    "path": "Crunchyroll - To Your Eternity S3/Fushi Teaser.png",
+    "name": "Fushi - Teaser",
+    "path": "Crunchyroll - To Your Eternity S3/Fushi - Teaser.png",
     "bytes": 44586,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mizuha Kv",
-    "path": "Crunchyroll - To Your Eternity S3/Mizuha Kv.png",
+    "name": "Mizuha - Key Visual",
+    "path": "Crunchyroll - To Your Eternity S3/Mizuha - Key Visual.png",
     "bytes": 41692,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Mizuha Teaser",
-    "path": "Crunchyroll - To Your Eternity S3/Mizuha Teaser.png",
+    "name": "Mizuha - Teaser",
+    "path": "Crunchyroll - To Your Eternity S3/Mizuha - Teaser.png",
     "bytes": 41097,
     "width": 170,
     "height": 170,
     "animated": false
    },
    {
-    "name": "Satoru Teaser",
-    "path": "Crunchyroll - To Your Eternity S3/Satoru Teaser.png",
+    "name": "Satoru - Teaser",
+    "path": "Crunchyroll - To Your Eternity S3/Satoru - Teaser.png",
     "bytes": 32046,
     "width": 170,
     "height": 170,
@@ -9102,8 +9102,8 @@
     "animated": false
    },
    {
-    "name": "Suzuki Kv",
-    "path": "Crunchyroll - You and I Are Polar Opposites/Suzuki Kv.png",
+    "name": "Suzuki - Key Visual",
+    "path": "Crunchyroll - You and I Are Polar Opposites/Suzuki - Key Visual.png",
     "bytes": 46923,
     "width": 170,
     "height": 170,
@@ -9302,16 +9302,16 @@
   "platform": "Disney Plus",
   "images": [
    {
-    "name": "101 Dalmatians - Cruella de Vil - animated",
-    "path": "Disney Plus - Disney Collection/101 Dalmatians - Cruella de Vil - animated.png",
+    "name": "101 Dalmatians - Cruella de Vil - Animated",
+    "path": "Disney Plus - Disney Collection/101 Dalmatians - Cruella de Vil - Animated.png",
     "bytes": 87495,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "101 Dalmatians - Cruella de Vil - live action",
-    "path": "Disney Plus - Disney Collection/101 Dalmatians - Cruella de Vil - live action.png",
+    "name": "101 Dalmatians - Cruella de Vil - Live Action",
+    "path": "Disney Plus - Disney Collection/101 Dalmatians - Cruella de Vil - Live Action.png",
     "bytes": 112525,
     "width": 300,
     "height": 300,
@@ -9966,8 +9966,8 @@
     "animated": false
    },
    {
-    "name": "Puppy Dog Pals - Bingo the pug",
-    "path": "Disney Plus - Disney TV and Junior/Puppy Dog Pals - Bingo the pug.png",
+    "name": "Puppy Dog Pals - Bingo the Pug",
+    "path": "Disney Plus - Disney TV and Junior/Puppy Dog Pals - Bingo the Pug.png",
     "bytes": 80911,
     "width": 300,
     "height": 300,
@@ -10070,8 +10070,8 @@
     "animated": false
    },
    {
-    "name": "Captain America - Steve Rogers",
-    "path": "Disney Plus - Marvel/Captain America - Steve Rogers.png",
+    "name": "Eternals - Ikaris",
+    "path": "Disney Plus - Marvel/Eternals - Ikaris.png",
     "bytes": 100741,
     "width": 300,
     "height": 300,
@@ -10446,16 +10446,16 @@
     "animated": false
    },
    {
-    "name": "Inside Out - Riley - child",
-    "path": "Disney Plus - Pixar/Inside Out - Riley - child.png",
+    "name": "Inside Out - Riley - Child",
+    "path": "Disney Plus - Pixar/Inside Out - Riley - Child.png",
     "bytes": 68366,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Inside Out - Riley - teen",
-    "path": "Disney Plus - Pixar/Inside Out - Riley - teen.png",
+    "name": "Inside Out - Riley - Teen",
+    "path": "Disney Plus - Pixar/Inside Out - Riley - Teen.png",
     "bytes": 60019,
     "width": 300,
     "height": 300,
@@ -10814,8 +10814,8 @@
     "animated": false
    },
    {
-    "name": "The Clone Wars - Clone trooper",
-    "path": "Disney Plus - Star Wars/The Clone Wars - Clone trooper.png",
+    "name": "The Clone Wars - Clone Trooper",
+    "path": "Disney Plus - Star Wars/The Clone Wars - Clone Trooper.png",
     "bytes": 87431,
     "width": 300,
     "height": 300,
@@ -10982,8 +10982,8 @@
   "platform": "Disney Plus",
   "images": [
    {
-    "name": "Wildlife - Big cat cub",
-    "path": "Disney Plus - Wildlife/Wildlife - Big cat cub.png",
+    "name": "Wildlife - Big Cat Cub",
+    "path": "Disney Plus - Wildlife/Wildlife - Big Cat Cub.png",
     "bytes": 133958,
     "width": 300,
     "height": 300,
@@ -11006,24 +11006,24 @@
     "animated": false
    },
    {
-    "name": "Wildlife - Giant panda",
-    "path": "Disney Plus - Wildlife/Wildlife - Giant panda.png",
+    "name": "Wildlife - Giant Panda",
+    "path": "Disney Plus - Wildlife/Wildlife - Giant Panda.png",
     "bytes": 84558,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Wildlife - Monkey",
-    "path": "Disney Plus - Wildlife/Wildlife - Monkey.png",
+    "name": "Wildlife - Gibbon",
+    "path": "Disney Plus - Wildlife/Wildlife - Gibbon.png",
     "bytes": 117080,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Wildlife - Penguin chick",
-    "path": "Disney Plus - Wildlife/Wildlife - Penguin chick.png",
+    "name": "Wildlife - Penguin Chick",
+    "path": "Disney Plus - Wildlife/Wildlife - Penguin Chick.png",
     "bytes": 89902,
     "width": 300,
     "height": 300,
@@ -11702,40 +11702,40 @@
   "platform": "Netflix",
   "images": [
    {
-    "name": "Abraracourcix",
-    "path": "Netflix - Asterix & Obelix/Abraracourcix.png",
+    "name": "Vitalstatistix",
+    "path": "Netflix - Asterix & Obelix/Vitalstatistix.png",
     "bytes": 58358,
     "width": 190,
     "height": 190,
     "animated": false
    },
    {
-    "name": "Aplusbégalix",
-    "path": "Netflix - Asterix & Obelix/Aplusbégalix.png",
+    "name": "Cassius Ceramix",
+    "path": "Netflix - Asterix & Obelix/Cassius Ceramix.png",
     "bytes": 62006,
     "width": 190,
     "height": 190,
     "animated": false
    },
    {
-    "name": "Astérix",
-    "path": "Netflix - Asterix & Obelix/Astérix.png",
+    "name": "Asterix",
+    "path": "Netflix - Asterix & Obelix/Asterix.png",
     "bytes": 54476,
     "width": 190,
     "height": 190,
     "animated": false
    },
    {
-    "name": "Astérix & Obélix",
-    "path": "Netflix - Asterix & Obelix/Astérix & Obélix.png",
+    "name": "Asterix & Obelix",
+    "path": "Netflix - Asterix & Obelix/Asterix & Obelix.png",
     "bytes": 60867,
     "width": 190,
     "height": 190,
     "animated": false
    },
    {
-    "name": "Bonnemine",
-    "path": "Netflix - Asterix & Obelix/Bonnemine.png",
+    "name": "Impedimenta",
+    "path": "Netflix - Asterix & Obelix/Impedimenta.png",
     "bytes": 53940,
     "width": 190,
     "height": 190,
@@ -11758,8 +11758,8 @@
     "animated": false
    },
    {
-    "name": "Idéfix",
-    "path": "Netflix - Asterix & Obelix/Idéfix.png",
+    "name": "Dogmatix",
+    "path": "Netflix - Asterix & Obelix/Dogmatix.png",
     "bytes": 52501,
     "width": 190,
     "height": 190,
@@ -11782,16 +11782,16 @@
     "animated": false
    },
    {
-    "name": "Obélix",
-    "path": "Netflix - Asterix & Obelix/Obélix.png",
+    "name": "Obelix",
+    "path": "Netflix - Asterix & Obelix/Obelix.png",
     "bytes": 53006,
     "width": 190,
     "height": 190,
     "animated": false
    },
    {
-    "name": "Panoramix",
-    "path": "Netflix - Asterix & Obelix/Panoramix.png",
+    "name": "Getafix",
+    "path": "Netflix - Asterix & Obelix/Getafix.png",
     "bytes": 48697,
     "width": 190,
     "height": 190,
@@ -13374,8 +13374,8 @@
     "animated": false
    },
    {
-    "name": "Megafono",
-    "path": "Netflix - Dear White People/Megafono.png",
+    "name": "Megaphone 2",
+    "path": "Netflix - Dear White People/Megaphone 2.png",
     "bytes": 59562,
     "width": 200,
     "height": 200,
@@ -14110,8 +14110,8 @@
     "animated": false
    },
    {
-    "name": "Mr Ajayi",
-    "path": "Netflix - Heartstopper/Mr Ajayi.png",
+    "name": "Mr. Ajayi",
+    "path": "Netflix - Heartstopper/Mr. Ajayi.png",
     "bytes": 39915,
     "width": 160,
     "height": 160,
@@ -14286,8 +14286,8 @@
     "animated": false
    },
    {
-    "name": "House of Cards - bandiera",
-    "path": "Netflix - House of Cards/House of Cards - bandiera.png",
+    "name": "Inverted Flag",
+    "path": "Netflix - House of Cards/Inverted Flag.png",
     "bytes": 43937,
     "width": 200,
     "height": 200,
@@ -15126,8 +15126,8 @@
     "animated": false
    },
    {
-    "name": "Lisboa",
-    "path": "Netflix - Money Heist/Lisboa.png",
+    "name": "Lisbon",
+    "path": "Netflix - Money Heist/Lisbon.png",
     "bytes": 76330,
     "width": 200,
     "height": 200,
@@ -15182,8 +15182,8 @@
     "animated": false
    },
    {
-    "name": "Tokio",
-    "path": "Netflix - Money Heist/Tokio.png",
+    "name": "Tokyo 2",
+    "path": "Netflix - Money Heist/Tokyo 2.png",
     "bytes": 66397,
     "width": 190,
     "height": 190,
@@ -15862,8 +15862,8 @@
   "platform": "Netflix",
   "images": [
    {
-    "name": "Bird",
-    "path": "Netflix - Our Planet/Bird.png",
+    "name": "Hornbill",
+    "path": "Netflix - Our Planet/Hornbill.png",
     "bytes": 65929,
     "width": 200,
     "height": 200,
@@ -18742,16 +18742,16 @@
     "animated": false
    },
    {
-    "name": "Prince Phillip - Matt Smith",
-    "path": "Netflix - The Crown/Prince Phillip - Matt Smith.png",
+    "name": "Prince Philip - Matt Smith",
+    "path": "Netflix - The Crown/Prince Philip - Matt Smith.png",
     "bytes": 60672,
     "width": 190,
     "height": 190,
     "animated": false
    },
    {
-    "name": "Prince Phillip - Tobias Menzies",
-    "path": "Netflix - The Crown/Prince Phillip - Tobias Menzies.png",
+    "name": "Prince Philip - Tobias Menzies",
+    "path": "Netflix - The Crown/Prince Philip - Tobias Menzies.png",
     "bytes": 60178,
     "width": 190,
     "height": 190,
@@ -21686,8 +21686,8 @@
   "platform": "Paramount Plus",
   "images": [
    {
-    "name": "Elsadutton",
-    "path": "Paramount Plus - 1883/Elsadutton.png",
+    "name": "Elsa Dutton",
+    "path": "Paramount Plus - 1883/Elsa Dutton.png",
     "bytes": 125312,
     "width": 300,
     "height": 300,
@@ -21702,8 +21702,8 @@
     "animated": false
    },
    {
-    "name": "Jamesdutton",
-    "path": "Paramount Plus - 1883/Jamesdutton.png",
+    "name": "James Dutton",
+    "path": "Paramount Plus - 1883/James Dutton.png",
     "bytes": 111000,
     "width": 300,
     "height": 300,
@@ -21718,24 +21718,24 @@
     "animated": false
    },
    {
-    "name": "Margaretdutton",
-    "path": "Paramount Plus - 1883/Margaretdutton.png",
+    "name": "Margaret Dutton",
+    "path": "Paramount Plus - 1883/Margaret Dutton.png",
     "bytes": 106905,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Marshaljimcourtright",
-    "path": "Paramount Plus - 1883/Marshaljimcourtright.png",
+    "name": "Marshal Jim Courtright",
+    "path": "Paramount Plus - 1883/Marshal Jim Courtright.png",
     "bytes": 120205,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Sheabrennan",
-    "path": "Paramount Plus - 1883/Sheabrennan.png",
+    "name": "Shea Brennan",
+    "path": "Paramount Plus - 1883/Shea Brennan.png",
     "bytes": 109217,
     "width": 300,
     "height": 300,
@@ -21894,8 +21894,8 @@
   "platform": "Paramount Plus",
   "images": [
    {
-    "name": "Lol",
-    "path": "Paramount Plus - Emotions/Lol.png",
+    "name": "LOL",
+    "path": "Paramount Plus - Emotions/LOL.png",
     "bytes": 101900,
     "width": 300,
     "height": 300,
@@ -21926,56 +21926,56 @@
   "platform": "Paramount Plus",
   "images": [
    {
-    "name": "Benshakir",
-    "path": "Paramount Plus - Evil/Benshakir.png",
+    "name": "Ben Shakir",
+    "path": "Paramount Plus - Evil/Ben Shakir.png",
     "bytes": 102797,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Davidacosta",
-    "path": "Paramount Plus - Evil/Davidacosta.png",
+    "name": "David Acosta",
+    "path": "Paramount Plus - Evil/David Acosta.png",
     "bytes": 80489,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Drboggs",
-    "path": "Paramount Plus - Evil/Drboggs.png",
+    "name": "Dr. Boggs",
+    "path": "Paramount Plus - Evil/Dr. Boggs.png",
     "bytes": 109930,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Kristenbouchard",
-    "path": "Paramount Plus - Evil/Kristenbouchard.png",
+    "name": "Kristen Bouchard",
+    "path": "Paramount Plus - Evil/Kristen Bouchard.png",
     "bytes": 93748,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Lelandtownsend",
-    "path": "Paramount Plus - Evil/Lelandtownsend.png",
+    "name": "Leland Townsend",
+    "path": "Paramount Plus - Evil/Leland Townsend.png",
     "bytes": 107253,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Sherylluria",
-    "path": "Paramount Plus - Evil/Sherylluria.png",
+    "name": "Sheryl Luria",
+    "path": "Paramount Plus - Evil/Sheryl Luria.png",
     "bytes": 122180,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Sisterandrea",
-    "path": "Paramount Plus - Evil/Sisterandrea.png",
+    "name": "Sister Andrea",
+    "path": "Paramount Plus - Evil/Sister Andrea.png",
     "bytes": 115924,
     "width": 300,
     "height": 300,
@@ -21990,48 +21990,48 @@
   "platform": "Paramount Plus",
   "images": [
    {
-    "name": "Alan0.75X",
-    "path": "Paramount Plus - Frasier/Alan0.75X.png",
+    "name": "Alan",
+    "path": "Paramount Plus - Frasier/Alan.png",
     "bytes": 106398,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "David0.75X",
-    "path": "Paramount Plus - Frasier/David0.75X.png",
+    "name": "David",
+    "path": "Paramount Plus - Frasier/David.png",
     "bytes": 96238,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Eve0.75X",
-    "path": "Paramount Plus - Frasier/Eve0.75X.png",
+    "name": "Eve",
+    "path": "Paramount Plus - Frasier/Eve.png",
     "bytes": 157888,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Frasier0.75X",
-    "path": "Paramount Plus - Frasier/Frasier0.75X.png",
+    "name": "Frasier",
+    "path": "Paramount Plus - Frasier/Frasier.png",
     "bytes": 101947,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Freddy0.75X",
-    "path": "Paramount Plus - Frasier/Freddy0.75X.png",
+    "name": "Freddy",
+    "path": "Paramount Plus - Frasier/Freddy.png",
     "bytes": 100183,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Olivia0.75X",
-    "path": "Paramount Plus - Frasier/Olivia0.75X.png",
+    "name": "Olivia",
+    "path": "Paramount Plus - Frasier/Olivia.png",
     "bytes": 138717,
     "width": 300,
     "height": 300,
@@ -22070,8 +22070,8 @@
     "animated": false
    },
    {
-    "name": "Drhalsey",
-    "path": "Paramount Plus - Halo/Drhalsey.png",
+    "name": "Dr. Halsey",
+    "path": "Paramount Plus - Halo/Dr. Halsey.png",
     "bytes": 105547,
     "width": 300,
     "height": 300,
@@ -22102,8 +22102,8 @@
     "animated": false
    },
    {
-    "name": "Mastercheif",
-    "path": "Paramount Plus - Halo/Mastercheif.png",
+    "name": "Master Chief",
+    "path": "Paramount Plus - Halo/Master Chief.png",
     "bytes": 111713,
     "width": 300,
     "height": 300,
@@ -22230,8 +22230,8 @@
     "animated": false
    },
    {
-    "name": "Sherill Lynn",
-    "path": "Paramount Plus - Lawmen - Bass Reeves/Sherill Lynn.png",
+    "name": "Sherrill Lynn",
+    "path": "Paramount Plus - Lawmen - Bass Reeves/Sherrill Lynn.png",
     "bytes": 114098,
     "width": 300,
     "height": 300,
@@ -22262,16 +22262,16 @@
     "animated": false
    },
    {
-    "name": "Kyle Mclusky",
-    "path": "Paramount Plus - Mayor of Kingstown/Kyle Mclusky.png",
+    "name": "Kyle McLusky",
+    "path": "Paramount Plus - Mayor of Kingstown/Kyle McLusky.png",
     "bytes": 109628,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Mike Mclusky",
-    "path": "Paramount Plus - Mayor of Kingstown/Mike Mclusky.png",
+    "name": "Mike McLusky",
+    "path": "Paramount Plus - Mayor of Kingstown/Mike McLusky.png",
     "bytes": 93656,
     "width": 300,
     "height": 300,
@@ -22286,16 +22286,16 @@
     "animated": false
    },
    {
-    "name": "Miriam Mclusky",
-    "path": "Paramount Plus - Mayor of Kingstown/Miriam Mclusky.png",
+    "name": "Miriam McLusky",
+    "path": "Paramount Plus - Mayor of Kingstown/Miriam McLusky.png",
     "bytes": 109524,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Pdog",
-    "path": "Paramount Plus - Mayor of Kingstown/Pdog.png",
+    "name": "P-Dog",
+    "path": "Paramount Plus - Mayor of Kingstown/P-Dog.png",
     "bytes": 109748,
     "width": 300,
     "height": 300,
@@ -22326,8 +22326,8 @@
   "platform": "Paramount Plus",
   "images": [
    {
-    "name": "Aang - Stato dell'Avatar",
-    "path": "Paramount Plus - Nickelodeon/Aang - Stato dell'Avatar.png",
+    "name": "Aang - Avatar State",
+    "path": "Paramount Plus - Nickelodeon/Aang - Avatar State.png",
     "bytes": 82779,
     "width": 300,
     "height": 300,
@@ -22382,8 +22382,8 @@
     "animated": false
    },
    {
-    "name": "Susiecarmichael",
-    "path": "Paramount Plus - Nickelodeon/Susiecarmichael.png",
+    "name": "Susie Carmichael",
+    "path": "Paramount Plus - Nickelodeon/Susie Carmichael.png",
     "bytes": 109335,
     "width": 300,
     "height": 300,
@@ -22542,8 +22542,8 @@
     "animated": false
    },
    {
-    "name": "Kenny Mccormick",
-    "path": "Paramount Plus - South Park/Kenny Mccormick.png",
+    "name": "Kenny McCormick",
+    "path": "Paramount Plus - South Park/Kenny McCormick.png",
     "bytes": 62307,
     "width": 300,
     "height": 300,
@@ -22702,8 +22702,8 @@
     "animated": false
    },
    {
-    "name": "Larry The Lobster",
-    "path": "Paramount Plus - SpongeBob SquarePants/Larry The Lobster.png",
+    "name": "Larry the Lobster",
+    "path": "Paramount Plus - SpongeBob SquarePants/Larry the Lobster.png",
     "bytes": 92053,
     "width": 300,
     "height": 300,
@@ -22758,8 +22758,8 @@
     "animated": false
    },
    {
-    "name": "Spongebob",
-    "path": "Paramount Plus - SpongeBob SquarePants/Spongebob.png",
+    "name": "SpongeBob",
+    "path": "Paramount Plus - SpongeBob SquarePants/SpongeBob.png",
     "bytes": 117875,
     "width": 300,
     "height": 300,
@@ -22878,16 +22878,16 @@
     "animated": false
    },
    {
-    "name": "M Benga",
-    "path": "Paramount Plus - Star Trek - Strange New Worlds/M Benga.png",
+    "name": "M'Benga",
+    "path": "Paramount Plus - Star Trek - Strange New Worlds/M'Benga.png",
     "bytes": 108356,
     "width": 300,
     "height": 300,
     "animated": false
    },
    {
-    "name": "Noonien Singh",
-    "path": "Paramount Plus - Star Trek - Strange New Worlds/Noonien Singh.png",
+    "name": "La'an Noonien-Singh",
+    "path": "Paramount Plus - Star Trek - Strange New Worlds/La'an Noonien-Singh.png",
     "bytes": 102279,
     "width": 300,
     "height": 300,
@@ -31390,8 +31390,8 @@
   "platform": "Prime Video",
   "images": [
    {
-    "name": "Cleo Mc Dowell",
-    "path": "Prime Video - Coming 2 America/Cleo Mc Dowell.png",
+    "name": "Cleo McDowell",
+    "path": "Prime Video - Coming 2 America/Cleo McDowell.png",
     "bytes": 131682,
     "width": 300,
     "height": 300,
@@ -32350,8 +32350,8 @@
     "animated": false
    },
    {
-    "name": "Omni Man",
-    "path": "Prime Video - Invincible/Omni Man.png",
+    "name": "Omni-Man",
+    "path": "Prime Video - Invincible/Omni-Man.png",
     "bytes": 112907,
     "width": 300,
     "height": 300,
@@ -32710,8 +32710,8 @@
   "platform": "Prime Video",
   "images": [
    {
-    "name": "ATrain",
-    "path": "Prime Video - The Boys/ATrain.png",
+    "name": "A-Train",
+    "path": "Prime Video - The Boys/A-Train.png",
     "bytes": 102103,
     "width": 300,
     "height": 300,
@@ -32766,8 +32766,8 @@
     "animated": false
    },
    {
-    "name": "Mothers Milk",
-    "path": "Prime Video - The Boys/Mothers Milk.png",
+    "name": "Mother's Milk",
+    "path": "Prime Video - The Boys/Mother's Milk.png",
     "bytes": 92739,
     "width": 300,
     "height": 300,
@@ -33254,8 +33254,8 @@
     "animated": false
    },
    {
-    "name": "Gil Galad",
-    "path": "Prime Video - The Rings of Power/Gil Galad.png",
+    "name": "Gil-galad",
+    "path": "Prime Video - The Rings of Power/Gil-galad.png",
     "bytes": 120085,
     "width": 300,
     "height": 300,
@@ -33318,8 +33318,8 @@
     "animated": false
    },
    {
-    "name": "Pharazon",
-    "path": "Prime Video - The Rings of Power/Pharazon.png",
+    "name": "Pharazôn",
+    "path": "Prime Video - The Rings of Power/Pharazôn.png",
     "bytes": 133144,
     "width": 300,
     "height": 300,
@@ -33654,8 +33654,8 @@
     "animated": false
    },
    {
-    "name": "Lt Hart",
-    "path": "Prime Video - The Tomorrow War/Lt Hart.png",
+    "name": "Lt. Hart",
+    "path": "Prime Video - The Tomorrow War/Lt. Hart.png",
     "bytes": 112222,
     "width": 300,
     "height": 300,
@@ -33694,8 +33694,8 @@
     "animated": false
    },
    {
-    "name": "Sgt Diaz",
-    "path": "Prime Video - The Tomorrow War/Sgt Diaz.png",
+    "name": "Sgt. Diaz",
+    "path": "Prime Video - The Tomorrow War/Sgt. Diaz.png",
     "bytes": 110260,
     "width": 300,
     "height": 300,
@@ -33870,8 +33870,8 @@
     "animated": false
    },
    {
-    "name": "Hell No Price",
-    "path": "Prime Video - Troop Zero/Hell No Price.png",
+    "name": "Hell-No Price",
+    "path": "Prime Video - Troop Zero/Hell-No Price.png",
     "bytes": 118179,
     "width": 300,
     "height": 300,
@@ -33926,8 +33926,8 @@
   "platform": "Prime Video",
   "images": [
    {
-    "name": "AIGuy",
-    "path": "Prime Video - Upload/AIGuy.png",
+    "name": "A.I. Guy",
+    "path": "Prime Video - Upload/A.I. Guy.png",
     "bytes": 111815,
     "width": 300,
     "height": 300,
@@ -33990,8 +33990,8 @@
     "animated": false
    },
    {
-    "name": "Dr Miles Murphy",
-    "path": "Prime Video - With Love/Dr Miles Murphy.png",
+    "name": "Dr. Miles Murphy",
+    "path": "Prime Video - With Love/Dr. Miles Murphy.png",
     "bytes": 99420,
     "width": 300,
     "height": 300,

@@ -30,8 +30,8 @@
     "descriptive": true
   },
   {
-    "path": "Crunchyroll - Clevatess/Luna Kv.png",
-    "source": "Luna Kv",
+    "path": "Crunchyroll - Clevatess/Luna - Key Visual.png",
+    "source": "Luna - Key Visual",
     "english": "Moon · 007",
     "descriptive": true
   },
@@ -54,8 +54,8 @@
     "descriptive": false
   },
   {
-    "path": "Disney Plus - Wildlife/Wildlife - Giant panda.png",
-    "source": "Wildlife - Giant panda",
+    "path": "Disney Plus - Wildlife/Wildlife - Giant Panda.png",
+    "source": "Wildlife - Giant Panda",
     "english": "Wildlife · 004",
     "descriptive": false
   },
@@ -100,18 +100,6 @@
     "source": "Jet",
     "english": "Jet · 002",
     "descriptive": true
-  },
-  {
-    "path": "Netflix - Dear White People/Megafono.png",
-    "source": "Megafono",
-    "english": "Megaphone · 003",
-    "descriptive": true
-  },
-  {
-    "path": "Netflix - House of Cards/House of Cards - bandiera.png",
-    "source": "House of Cards - bandiera",
-    "english": "House of Cards — flag · 002",
-    "descriptive": false
   },
   {
     "path": "Netflix - Lost in Space/Robot.png",
@@ -190,12 +178,6 @@
     "source": "Smiling Green Blob",
     "english": "Blob · 001",
     "descriptive": true
-  },
-  {
-    "path": "Paramount Plus - Nickelodeon/Aang - Stato dell'Avatar.png",
-    "source": "Aang - Stato dell'Avatar",
-    "english": "Aang — Avatar State",
-    "descriptive": false
   },
   {
     "path": "PlayStation - General/Beat Hazard Ultra - Logo.png",
