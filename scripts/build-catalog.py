@@ -44,13 +44,14 @@ for p in source:
  folder=p['folder'];pid=slug(folder);rf=files[folder];rfiles={f['name']:f for f in rf['contents']};images=[]
  title=folder.split(' - ',1)[1];universe=title if p['platform']=='Disney Plus' else 'Independent collections'
  if title in ['Disney Collection','Disney TV and Junior']:universe='Disney'
- if p['platform'] in ['PlayStation','Xbox One','Xbox 360','Steam']:universe='Games'
+ if p['platform'] in ['PlayStation','Xbox One','Xbox 360','Steam','Rockstar Games']:universe='Games'
  if p['platform']=='Crunchyroll':universe='Anime'
  franchises=[]
- if title not in ['General','Other','PS One Classics','PS2 Classics','Adults','Animated Avatars','Pop Culture Animated','Disney Collection','Disney TV and Junior','Wildlife','20th Century','Marvel','Pixar','Star Wars']:
+ if title not in ['General','Other','PS One Classics','PS2 Classics','Adults','Animated Avatars','Pop Culture Animated','Disney Collection','Disney TV and Junior','Wildlife','20th Century','Marvel','Pixar','Star Wars','Rockstar Icons','Classics']:
   franchise=re.sub(r' (Season \d+|S\d+.*|II|III|IV)$','',title);franchises.append(franchise)
  for i,x in enumerate(p['images'],1):
-  name,descriptive=english_name(x['name'],i);
+  # Rockstar labels are official English names: never run them through the Italian label fixer.
+  name,descriptive=(x['name'],False) if p['platform']=='Rockstar Games' else english_name(x['name'],i);
   if not name.strip():name,descriptive=f'Avatar · {i:03}',True
   method=provenance.get((folder,x['name']),'existing source label');provisional='descrizione' in method or descriptive
   # Tag mixed Disney packs only where the label explicitly names a franchise.
