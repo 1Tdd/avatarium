@@ -1,18 +1,18 @@
 {
   "manifests": {
     "bytes": 718517,
-    "entries": 279,
+    "entries": 281,
     "crc": "ESTIMATE",
     "filename": "AVATARIUM_PACK_MANIFESTS.zip",
     "source": "pCloud getpubzip"
   },
   "library": {
-    "bytes": 2553546847,
+    "bytes": 2555356407,
     "entries": 6293,
     "crc": "PREBUILT",
     "filename": "AVATARIUM.zip",
     "source": "pCloud public link to a ready-made archive",
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "archive": "XZekzV7ZrbmJrM7557mQaJ3HclozHBuWn5Gy"
   }
 }
