@@ -77,6 +77,7 @@ previous=ROOT/'public/site-config.json'
 if previous.exists():
  for k,v in json.loads(previous.read_text('utf8')).items():
   if k in ('siteUrl','contactEmail','contactUrl','libraryArchive') and v:config[k]=v
+import runpy;runpy.run_path(str(ROOT/'scripts/sync-counts.py'))
 audit=ROOT/'audit/pcloud-download-audit.json'
 if audit.exists():config['downloadAudit']=json.loads(audit.read_text('utf8'))
 (ROOT/'public/site-config.json').write_text(json.dumps(config,indent=2),encoding='utf8')
