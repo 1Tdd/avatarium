@@ -31,7 +31,8 @@ const UNLISTED = ['/selection'];
 
 const escape = s => String(s).replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'})[c]);
 const template = read('index.html');
-const image = escape(base + '/og-image.png');
+// The counts in the address make social networks fetch the picture again whenever the library grows.
+const image = escape(`${base}/og-image.png?v=${catalog.packCount}-${catalog.imageCount}`);
 const shared = `<meta property="og:site_name" content="Avatarium"/><meta property="og:image" content="${image}"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image:alt" content="Avatarium"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:image" content="${image}"/>`;
 
 function page(path, meta) {
