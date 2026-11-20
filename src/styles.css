@@ -595,3 +595,4 @@ button.text-link { min-height: 32px; }
 .help-request { display: flex; align-items: center; justify-content: space-between; gap: 14px 24px; flex-wrap: wrap; margin-top: clamp(28px, 4vw, 44px); padding: 18px 22px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); }
 .help-request p { font-weight: 550; }
 a.button[aria-busy="true"] { opacity: .7; cursor: progress; }
+.actions.after-grid { margin-top: 32px; }

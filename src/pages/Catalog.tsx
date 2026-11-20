@@ -24,6 +24,7 @@ const SIZES = [
 ] as const;
 const SORTS = [
   ['az', 'A–Z'],
+  ['new', 'Newest first'],
   ['za', 'Z–A'],
   ['count', 'Most avatars'],
   ['few', 'Fewest avatars'],
@@ -127,6 +128,7 @@ export default function Catalog() {
     );
     const order: Record<string, (a: typeof filtered[number], b: typeof filtered[number]) => number> = {
       za: (a, b) => b.title.localeCompare(a.title),
+      new: (a, b) => b.added.localeCompare(a.added),
       count: (a, b) => b.count - a.count,
       few: (a, b) => a.count - b.count,
       large: (a, b) => b.bytes - a.bytes,
@@ -152,6 +154,11 @@ export default function Catalog() {
   const avatars = result.reduce((n, p) => n + p.count, 0);
   const resultIds = result.map(p => p.id);
   const allAdded = resultIds.length > 0 && resultIds.every(id => selection.has(id));
+
+  // Clearing the filters keeps the chosen order.
+  function clearFilters() {
+    setParams(sort === 'az' ? {} : {sort}, {replace: true});
+  }
 
   function goTo(n: number) {
     const next = new URLSearchParams(params);
@@ -203,7 +210,7 @@ export default function Catalog() {
             <select aria-label="Sort packs" value={sort} onChange={e => update('sort', e.target.value === 'az' ? '' : e.target.value)}>
               {SORTS.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
             </select>
-            {filtered ? <button className="text-link" onClick={() => setParams({}, {replace: true})}>Reset</button> : null}
+            {filtered ? <button className="text-link" onClick={clearFilters}>Reset</button> : null}
             {result.length && !searching ? (
               <button className={'button small ' + (allAdded ? 'selected' : 'ghost add-all')} aria-pressed={allAdded} onClick={() => (allAdded ? selection.removeMany(resultIds) : selection.addMany(resultIds))}>
                 <Icon name={allAdded ? 'check' : 'plus'} size={16} />
@@ -252,7 +259,7 @@ export default function Catalog() {
           <h2>No matching packs.</h2>
           <p>Try another name or clear your filters. Missing a show or a character? Tell us.</p>
           <div className="actions">
-            <button className="button ghost" onClick={() => setParams({}, {replace: true})}>Clear filters</button>
+            <button className="button ghost" onClick={clearFilters}>Clear filters</button>
             <Link className="button ghost" to={query ? `/request?name=${encodeURIComponent(query)}` : '/request'}>Request a pack</Link>
           </div>
         </div>

@@ -1,5 +1,5 @@
 """Build metadata only. Never changes cloud files or manifest references."""
-import json,pathlib,csv,re,unicodedata,collections,hashlib,datetime
+import json,pathlib,csv,re,unicodedata,collections,hashlib,datetime,email.utils
 TODAY=datetime.date.today()
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 source=json.loads((ROOT/'audit/catalog-source.json').read_text('utf8'))
@@ -64,7 +64,7 @@ for p in source:
   if name!=x['name']:translation_review.append(dict(path=x['path'],source=x['name'],english=name,descriptive=descriptive))
   search.append(dict(pack=pid,id=item['id'],name=name,original=x['name'],animated=x['animated']))
  # Refresh source-backed search labels without changing filenames.
- summary=dict(id=pid,title=title,folder=folder,folderId=rf['folderid'],platform=p['platform'],universe=universe,franchises=sorted(set(franchises)),count=len(images),animated=sum(x['animated'] for x in images),bytes=sum(x['bytes'] for x in images),manifest=p['manifest'],manifestId=files[p['manifest']]['fileid'],manifestBytes=files[p['manifest']]['size'],preview=images[:3])
+ summary=dict(id=pid,title=title,folder=folder,folderId=rf['folderid'],added=email.utils.parsedate_to_datetime(rf['created']).date().isoformat(),platform=p['platform'],universe=universe,franchises=sorted(set(franchises)),count=len(images),animated=sum(x['animated'] for x in images),bytes=sum(x['bytes'] for x in images),manifest=p['manifest'],manifestId=files[p['manifest']]['fileid'],manifestBytes=files[p['manifest']]['size'],preview=images[:3])
  pack_summaries.append(summary)
  (out/'packs'/f'{pid}.json').write_text(json.dumps(dict(**summary,images=images),ensure_ascii=False,separators=(',',':')),encoding='utf8')
 assert len(pack_summaries)==len(source) and len({x['id'] for x in all_images})==len(all_images)

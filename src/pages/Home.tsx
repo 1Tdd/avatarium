@@ -45,6 +45,19 @@ export default function Home() {
 
   const [seed, setSeed] = useState(0);
   const picks = useMemo(() => shuffled(catalog.packs.filter(p => p.preview.length >= 3)).slice(0, 6), [catalog, seed]);
+  // Packs saved after the first upload, newest first, taking turns between platforms so one big batch does not fill the row.
+  const recent = useMemo(() => {
+    const first = catalog.packs.reduce((d, p) => (p.added < d ? p.added : d), catalog.packs[0]?.added ?? '');
+    const newer = catalog.packs.filter(p => p.added > first);
+    const days = [...new Set(newer.map(p => p.added))].sort().reverse();
+    const ordered = days.flatMap(day => {
+      const groups = new Map<string, Pack[]>();
+      for (const p of newer.filter(x => x.added === day).sort((a, b) => a.title.localeCompare(b.title))) groups.set(p.platform, [...(groups.get(p.platform) ?? []), p]);
+      const lists = [...groups.values()];
+      return Array.from({length: Math.max(...lists.map(l => l.length))}, (_, i) => lists.map(l => l[i]).filter(Boolean)).flat();
+    });
+    return {packs: ordered.slice(0, 6), count: newer.length, since: first};
+  }, [catalog]);
   const animatedPacks = useMemo(() => catalog.packs.filter(p => p.animated > 0).sort((a, b) => b.animated - a.animated), [catalog]);
 
   useEffect(() => {
@@ -118,6 +131,22 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {recent.packs.length ? (
+        <section className="section">
+          <header className="section-head">
+            <div>
+              <p className="eyebrow">New in the library</p>
+              <h2>Recently added</h2>
+              <p className="muted">{recent.count} {recent.count === 1 ? 'pack' : 'packs'} added since {new Date(recent.since + 'T00:00:00').toLocaleDateString('en-US', {month: 'long', day: 'numeric'})}.</p>
+            </div>
+            <Link className="text-link" to="/packs?sort=new">All new packs <Icon name="arrow" size={18} /></Link>
+          </header>
+          <div className="pack-grid">
+            {recent.packs.map(p => <PackCard key={p.id} pack={p} />)}
+          </div>
+        </section>
+      ) : null}
 
       <section className="section">
         <header className="section-head">

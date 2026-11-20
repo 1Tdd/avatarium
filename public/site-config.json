@@ -17,12 +17,12 @@
       "source": "pCloud getpubzip"
     },
     "library": {
-      "bytes": 2670188091,
+      "bytes": 2670188396,
       "entries": 6293,
       "crc": "PREBUILT",
       "filename": "AVATARIUM.zip",
       "source": "pCloud public link to a ready-made archive",
-      "checked": "2026-11-17",
+      "checked": "2026-11-20",
       "archive": "XZekzV7ZrbmJrM7557mQaJ3HclozHBuWn5Gy"
     }
   },

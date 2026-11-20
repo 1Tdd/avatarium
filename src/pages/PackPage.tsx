@@ -18,16 +18,42 @@ export default function PackPage() {
   useEffect(() => {
     if (!exists) document.title = 'Pack not found — Avatarium';
   }, [exists]);
-  if (!exists) {
-    return (
-      <section className="page">
-        <h1>Pack not found.</h1>
-        <p className="page-intro">It may have been renamed or removed.</p>
-        <Link className="button" to="/packs">Explore packs</Link>
-      </section>
-    );
-  }
+  if (!exists) return <PackNotFound id={id ?? ''} />;
   return <PackContent key={id} id={id!} />;
+}
+
+/** An old or mistyped address: suggest the packs whose names share the most words with it. */
+function PackNotFound({id}: {id: string}) {
+  const {catalog} = useLibrary();
+  // Platform words ("rockstar", "netflix") match too many packs to tell anything.
+  const common = new Set(['the', 'and', 'season', ...catalog.packs.flatMap(p => p.platform.toLowerCase().split(/\W+/))]);
+  const words = id.toLowerCase().split('-').filter(w => w.length > 2 && !common.has(w));
+  const suggestions = catalog.packs
+    .map(p => ({p, score: words.filter(w => p.id.split('-').includes(w)).length}))
+    .filter(x => x.score > 0)
+    .sort((a, b) => b.score - a.score || a.p.title.localeCompare(b.p.title))
+    .slice(0, 6)
+    .map(x => x.p);
+  // The catalog search matches one phrase, so offer the most telling single word.
+  const search = [...words].sort((a, b) => b.length - a.length)[0] ?? '';
+  return (
+    <section className="page">
+      <header className="page-head">
+        <p className="eyebrow">404</p>
+        <h1>Pack not found.</h1>
+        <p className="page-intro">It may have been renamed or removed.{suggestions.length ? ' Is it one of these?' : ''}</p>
+      </header>
+      {suggestions.length ? (
+        <div className="pack-grid">
+          {suggestions.map(p => <PackCard key={p.id} pack={p} />)}
+        </div>
+      ) : null}
+      <div className="actions after-grid">
+        <Link className="button" to={search ? `/packs?q=${encodeURIComponent(search)}` : '/packs'}>{search ? `Search “${search}”` : 'Explore packs'}</Link>
+        <Link className="button ghost" to="/packs">All packs</Link>
+      </div>
+    </section>
+  );
 }
 
 function PackContent({id}: {id: string}) {
