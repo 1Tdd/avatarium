@@ -4,11 +4,10 @@ import {loadJson, useLibrary} from '../lib/data';
 import {useSelection} from '../lib/selection';
 import type {SearchEntry} from '../types';
 import {formatCount, avatarCount} from '../lib/pcloud';
+import {normalize} from '../lib/text';
 import {PackCard} from '../components/PackCard';
 import {Thumbnail} from '../components/Media';
 import {Icon} from '../components/Icon';
-
-export const normalize = (s: string) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 const PAGE_SIZE = 24;
 const FORMATS = [

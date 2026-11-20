@@ -2,7 +2,7 @@ import {useEffect, useMemo, useState} from 'react';
 import {Link, useSearchParams} from 'react-router-dom';
 import {useLibrary} from '../lib/data';
 import {Icon} from '../components/Icon';
-import {normalize} from './Catalog';
+import {normalize} from '../lib/text';
 
 const KINDS = [
   ['pack', 'A new pack'],

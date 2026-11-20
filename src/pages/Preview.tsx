@@ -6,7 +6,7 @@ import {useSelection} from '../lib/selection';
 import {profiles, useProfiles, MAX_PROFILES} from '../lib/profiles';
 import {Thumbnail} from '../components/Media';
 import {Icon} from '../components/Icon';
-import {normalize} from './Catalog';
+import {normalize} from '../lib/text';
 
 const RESULTS = 24;
 

@@ -6,6 +6,7 @@ import {packZip, formatBytes, formatCount} from '../lib/pcloud';
 import {Thumbnail, Lightbox} from '../components/Media';
 import {PackCard, SelectButton, formatLabel} from '../components/PackCard';
 import {Icon} from '../components/Icon';
+import {normalize} from '../lib/text';
 import {ManifestButton} from '../components/DownloadButton';
 
 const PAGE_SIZE = 60;
@@ -13,7 +14,11 @@ const PAGE_SIZE = 60;
 export default function PackPage() {
   const {id} = useParams();
   const {catalog} = useLibrary();
-  if (!catalog.packs.some(p => p.id === id)) {
+  const exists = catalog.packs.some(p => p.id === id);
+  useEffect(() => {
+    if (!exists) document.title = 'Pack not found — Avatarium';
+  }, [exists]);
+  if (!exists) {
     return (
       <section className="page">
         <h1>Pack not found.</h1>
@@ -62,8 +67,8 @@ function PackContent({id}: {id: string}) {
   }, [catalog, summary]);
 
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return (p?.images ?? []).filter(x => (!q || x.name.toLowerCase().includes(q)) && (!onlyAnimated || x.animated));
+    const q = normalize(query.trim());
+    return (p?.images ?? []).filter(x => (!q || normalize(x.name).includes(q)) && (!onlyAnimated || x.animated));
   }, [p, query, onlyAnimated]);
   const shown = filtered.slice(0, limit);
   const mixed = summary.animated > 0 && summary.animated < summary.count;

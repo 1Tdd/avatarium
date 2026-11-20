@@ -32,7 +32,7 @@ export const adding: Record<string, {title: string; steps: string[]}> = {
   manual: {
     title: 'Download, extract, then upload',
     steps: [
-      'Download the complete library ZIP. Keep enough local space for both the archive and its extracted contents — about 6 GB for this release.',
+      'Download the complete library ZIP. Keep enough local space for both the archive and its extracted contents — about {local} for this release.',
       'Extract the ZIP on your computer. On Windows use Extract All; on other systems use the built-in archive utility.',
       'Upload the extracted AVATARIUM folder to your pCloud account or another WebDAV storage. Uploading only the ZIP does not make its images available to your Jellyfin app.',
       'Wait for every upload to finish. If some files failed, retry those files first instead of deleting and uploading the whole collection again.',
@@ -68,12 +68,12 @@ export const pathIntroductions: Record<string, {title: string; description: stri
   cloud: {
     title: 'Copy the library to your pCloud account',
     description: 'Save the shared folder directly in pCloud, check the copied files, then add your chosen packs in your Jellyfin app.',
-    first: 'Have your pCloud account ready with at least 3 GB free. Chapter 3 opens the shared library; sign in on pCloud and confirm where to save it.',
+    first: 'Have your pCloud account ready with at least {storage} free. Chapter 3 opens the shared library; sign in on pCloud and confirm where to save it.',
   },
   manual: {
     title: 'Download, extract and upload the library',
     description: 'Keep a local copy of the files and upload the extracted folder to your own storage.',
-    first: 'Allow about 6 GB on your computer for the ZIP and extracted files, plus at least 3 GB on your storage. Chapter 3 explains extraction and upload.',
+    first: 'Allow about {local} on your computer for the ZIP and extracted files, plus at least {storage} on your storage. Chapter 3 explains extraction and upload.',
   },
   selected: {
     title: 'Add only the packs you want',

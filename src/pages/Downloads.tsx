@@ -5,6 +5,7 @@ import {useSelection} from '../lib/selection';
 import {useCloud} from '../components/CloudDialog';
 import {manifestsZip, formatBytes, formatCount} from '../lib/pcloud';
 import {Icon} from '../components/Icon';
+import {librarySpace} from '../lib/text';
 import {ManifestButton, LibraryButton} from '../components/DownloadButton';
 
 export default function Downloads() {
@@ -13,6 +14,7 @@ export default function Downloads() {
   const cloud = useCloud();
   const audit = config.downloadAudit;
   const archiveBytes = useArchiveBytes();
+  const space = librarySpace(catalog);
   const audited = new Date(catalog.auditedAt + 'T00:00:00').toLocaleDateString('en-US', {year: 'numeric', month: 'long', day: 'numeric'});
 
   useEffect(() => {
@@ -34,7 +36,7 @@ export default function Downloads() {
           <h2>Save to pCloud</h2>
           <p>Copy the whole shared folder straight into your own pCloud account. No download, no upload, nothing to extract.</p>
           <ul>
-            <li>Needs a pCloud account with about 3 GB free</li>
+            <li>Needs a pCloud account with about {space.storage} GB free</li>
             <li>Sign-in happens on pCloud, never here</li>
           </ul>
           <button className="button block" onClick={cloud}>Add to pCloud <Icon name="external" size={16} /></button>
@@ -46,7 +48,7 @@ export default function Downloads() {
           <p>{formatCount(catalog.imageCount)} images and every manifest in one ZIP, for manual upload to pCloud or another WebDAV storage.</p>
           <ul>
             <li>{archiveBytes ? config.libraryArchive ? `${formatBytes(archiveBytes)}, ready to download` : `About ${formatBytes(archiveBytes)}` : 'Size varies'}</li>
-            <li>Allow about 6 GB locally for the ZIP and its contents</li>
+            <li>Allow about {space.local} GB locally for the ZIP and its contents</li>
           </ul>
           <LibraryButton />
         </article>

@@ -72,7 +72,7 @@ export default function Home() {
           </div>
           <form className="search-field hero-search" role="search" onSubmit={e => { e.preventDefault(); navigate(search.trim() ? `/packs?q=${encodeURIComponent(search.trim())}` : '/packs'); }}>
             <Icon name="search" />
-            <input type="search" aria-label="Search a character or a show" placeholder="Search a character: Eren, Batman, Pikachu…" value={search} onChange={e => setSearch(e.target.value)} />
+            <input type="search" aria-label="Search a character or a show" placeholder="Search a character: Eren, Joker, Pikachu…" value={search} onChange={e => setSearch(e.target.value)} />
             <button className="button small" type="submit">Search</button>
           </form>
           <dl className="hero-stats">

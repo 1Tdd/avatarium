@@ -2,13 +2,14 @@ import {createContext, useContext, useRef, useState, useEffect} from 'react';
 import type {ReactNode} from 'react';
 import {Link} from 'react-router-dom';
 import {useLibrary} from '../lib/data';
+import {librarySpace} from '../lib/text';
 import {Icon} from './Icon';
 
 const Context = createContext<() => void>(() => {});
 export const useCloud = () => useContext(Context);
 
 function Dialog({close}: {close: () => void}) {
-  const {config} = useLibrary();
+  const {config, catalog} = useLibrary();
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
     const trigger = document.activeElement as HTMLElement | null;
@@ -24,7 +25,7 @@ function Dialog({close}: {close: () => void}) {
       <h2 id="cloud-heading">You’ll finish this on pCloud.</h2>
       <ol className="dialog-steps">
         <li><span>1</span>The shared folder opens in a new tab.</li>
-        <li><span>2</span>Use pCloud’s <strong>save to my account</strong> action and sign in there. You need about 3 GB free.</li>
+        <li><span>2</span>Use pCloud’s <strong>save to my account</strong> action and sign in there. You need about {librarySpace(catalog).storage} GB free.</li>
         <li><span>3</span>Come back and connect your Jellyfin app — saving the files does not install any pack yet.</li>
       </ol>
       <div className="actions">

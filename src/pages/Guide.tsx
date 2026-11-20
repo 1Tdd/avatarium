@@ -4,6 +4,7 @@ import {paths, chapters, adding, pathIntroductions, webdav} from '../content/gui
 import type {Avatar} from '../types';
 import {useLibrary} from '../lib/data';
 import {formatCount} from '../lib/pcloud';
+import {fillCounts, librarySpace} from '../lib/text';
 import {useCloud} from '../components/CloudDialog';
 import {Thumbnail} from '../components/Media';
 import {Phone, PhoneGroup, PhoneRow} from '../components/Phone';
@@ -100,11 +101,11 @@ export default function Guide() {
 
           {step === 1 ? (
             <>
-              <p className="notice">{pathIntroductions[path].first}</p>
+              <p className="notice">{fillCounts(pathIntroductions[path].first, catalog)}</p>
               <div className="need-grid">
                 <div><Icon name="spark" size={26} /><h3>A Jellyfin app</h3><p>One with <strong>Profile Pictures</strong> in its Settings.</p></div>
                 <div><Icon name="cloud" size={26} /><h3>WebDAV storage</h3><p>Your Jellyfin app reads picture packs from a WebDAV server. A pCloud account works, and so does any other WebDAV storage you own.</p></div>
-                <div><Icon name="folder" size={26} /><h3>Free space</h3><p>About 3 GB for the complete library — far less if you only take a few packs.</p></div>
+                <div><Icon name="folder" size={26} /><h3>Free space</h3><p>About {librarySpace(catalog).storage} GB for the complete library — far less if you only take a few packs.</p></div>
               </div>
               <h3>How the pieces fit</h3>
               <p>This website is a catalog: it lets you browse and download. The pictures then live on <em>your</em> storage, and your Jellyfin app loads them from there. Saving files and adding packs in your Jellyfin app are two separate steps — this guide covers both.</p>
@@ -140,7 +141,7 @@ export default function Guide() {
             <>
               <h3>{adding[path].title}</h3>
               <ol className="instruction-list">
-                {adding[path].steps.map(x => <li key={x}>{x}</li>)}
+                {adding[path].steps.map(x => <li key={x}>{fillCounts(x, catalog)}</li>)}
               </ol>
               <div className="actions">
                 {path === 'selected' ? (

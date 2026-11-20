@@ -1,13 +1,19 @@
 import {useEffect, useState} from 'react';
 import {Link, useSearchParams} from 'react-router-dom';
-import {issues, faqs} from '../content/help';
+import {issues as written, faqs as writtenFaqs} from '../content/help';
+import {useLibrary} from '../lib/data';
+import {fillCounts} from '../lib/text';
 import {Icon} from '../components/Icon';
 
 export default function Help() {
+  const {catalog} = useLibrary();
   const [params, setParams] = useSearchParams();
+  const fill = (s: string) => fillCounts(s, catalog);
+  const issues = written.map(x => ({...x, symptom: fill(x.symptom), causes: fill(x.causes), checks: x.checks.map(fill), recovery: x.recovery.map(fill)}));
+  const faqs = writtenFaqs.map(([q, a]) => [fill(q), fill(a)]);
   const [query, setQuery] = useState('');
   const q = query.trim().toLowerCase();
-  const visible = issues.filter(x => `${x.label} ${x.symptom} ${x.causes} ${x.checks.join(' ')}`.toLowerCase().includes(q));
+  const visible = issues.filter(x => `${x.label} ${x.symptom} ${x.causes} ${x.checks.join(' ')} ${x.recovery.join(' ')}`.toLowerCase().includes(q));
   const visibleFaqs = faqs.filter(([question, answer]) => `${question} ${answer}`.toLowerCase().includes(q));
   const current = visible.find(x => x.id === params.get('issue')) || visible[0];
 
